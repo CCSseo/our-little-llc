@@ -37,7 +37,7 @@ export function Nav() {
             <Link
               key={l.href}
               href={l.href}
-              className="label text-[0.6rem] text-ink transition-colors hover:text-pop"
+              className="label text-[0.75rem] text-ink transition-colors hover:text-pop"
             >
               {l.label}
             </Link>
@@ -69,7 +69,7 @@ export function Nav() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="label border-b border-ink/10 py-4 text-[0.66rem] text-ink last:border-b-0 hover:text-pop"
+                className="label border-b border-ink/10 py-4 text-[0.8rem] text-ink last:border-b-0 hover:text-pop"
               >
                 {l.label}
               </Link>

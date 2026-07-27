@@ -13,9 +13,9 @@ export default function HomePage() {
     <main>
       {/* ---------- Hero ---------- */}
       <section className="mx-auto max-w-content px-5 pb-20 pt-20 sm:px-8 sm:pt-28">
-        <p className="label text-[0.62rem] text-pop">{HERO.eyebrow}</p>
-        <div className={heroArt ? "mt-6 grid items-start gap-10 lg:grid-cols-[1fr_minmax(0,26rem)]" : ""}>
-          <h1 className="display mt-6 max-w-5xl text-[clamp(2.4rem,8vw,6.5rem)] font-extrabold uppercase leading-[0.95] tracking-tight lg:mt-0">
+        <p className="label text-[0.8rem] text-pop">{HERO.eyebrow}</p>
+        <div className={heroArt ? "mt-6 grid items-center gap-10 lg:grid-cols-[1fr_minmax(0,32rem)]" : ""}>
+          <h1 className="display mt-6 max-w-5xl text-[clamp(2.4rem,7vw,6rem)] font-extrabold uppercase leading-[0.95] tracking-tight lg:mt-0">
             A little company. A family of home&#8209;grown brands<span className="text-pop">.</span>
           </h1>
           {heroArt && (
@@ -23,26 +23,26 @@ export default function HomePage() {
             <img
               src={heroArt}
               alt={ART_ALT.home}
-              className="hidden aspect-square w-full border border-ink/15 object-cover lg:block"
+              className="mx-auto w-full max-w-sm lg:mx-0 lg:max-w-none"
             />
           )}
         </div>
         <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <p className="max-w-prose text-lg leading-relaxed text-muted sm:text-xl">{HERO.sub}</p>
-          <p className="display shrink-0 text-base font-bold uppercase tracking-tight text-ink">
+          <p className="display shrink-0 text-lg font-bold uppercase tracking-tight text-ink">
             {HERO.note}
           </p>
         </div>
         <div className="mt-12 flex flex-wrap gap-4">
           <Link
             href="#family"
-            className="bg-ink px-8 py-4 text-sm font-bold uppercase tracking-widest text-paper transition-colors hover:bg-pop"
+            className="bg-ink px-8 py-4 text-base font-bold uppercase tracking-widest text-paper transition-colors hover:bg-pop"
           >
             Meet the family
           </Link>
           <Link
             href="/story"
-            className="border border-ink px-8 py-4 text-sm font-bold uppercase tracking-widest text-ink transition-colors hover:border-pop hover:text-pop"
+            className="border border-ink px-8 py-4 text-base font-bold uppercase tracking-widest text-ink transition-colors hover:border-pop hover:text-pop"
           >
             Read the story
           </Link>
@@ -54,7 +54,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-content flex-wrap items-center justify-center gap-x-4 gap-y-2 px-5 py-5 sm:gap-x-6 sm:px-8">
           {PROMISE.map((p, i) => (
             <span key={p} className="flex items-center gap-x-4 sm:gap-x-6">
-              <span className="label text-[0.55rem] text-paper/80">{p}</span>
+              <span className="label text-[0.75rem] text-paper/80">{p}</span>
               {i < PROMISE.length - 1 && (
                 <span aria-hidden className="h-1 w-1 rounded-full bg-pop" />
               )}
@@ -67,7 +67,7 @@ export default function HomePage() {
       <section id="family" className="scroll-mt-24 pt-24">
         <div className="mx-auto max-w-content px-5 sm:px-8">
           <Reveal>
-            <p className="label text-[0.62rem] text-pop">{FAMILY.eyebrow}</p>
+            <p className="label text-[0.8rem] text-pop">{FAMILY.eyebrow}</p>
             <h2 className="display mt-4 text-4xl font-extrabold uppercase tracking-tight sm:text-6xl">
               {FAMILY.heading}
             </h2>
@@ -85,7 +85,7 @@ export default function HomePage() {
 
         <div className="mx-auto max-w-content px-5 pt-16 sm:px-8">
           <Reveal>
-            <p className="label text-[0.62rem] text-pop">{FAMILY.workshopEyebrow}</p>
+            <p className="label text-[0.8rem] text-pop">{FAMILY.workshopEyebrow}</p>
             <p className="mt-4 max-w-prose text-lg text-muted">{FAMILY.workshopIntro}</p>
           </Reveal>
         </div>
@@ -101,7 +101,7 @@ export default function HomePage() {
       {/* ---------- How we build ---------- */}
       <section id="how" className="mx-auto max-w-content scroll-mt-24 px-5 pt-28 sm:px-8">
         <Reveal>
-          <p className="label text-[0.62rem] text-pop">How we build</p>
+          <p className="label text-[0.8rem] text-pop">How we build</p>
           <h2 className="display mt-4 text-4xl font-extrabold uppercase tracking-tight sm:text-6xl">
             The house rules
           </h2>
@@ -114,7 +114,7 @@ export default function HomePage() {
                   <span className="display text-lg font-bold text-pop">{v.no}</span>
                   <h3 className="display text-2xl font-bold uppercase tracking-tight">{v.title}</h3>
                 </div>
-                <p className="mt-4 text-base leading-relaxed text-muted">{v.body}</p>
+                <p className="mt-4 text-lg leading-relaxed text-muted">{v.body}</p>
               </div>
             </Reveal>
           ))}
@@ -134,7 +134,7 @@ export default function HomePage() {
               href={SITE.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-10 inline-block border border-paper px-8 py-4 text-sm font-bold uppercase tracking-widest text-paper transition-colors hover:border-pop hover:bg-pop"
+              className="mt-10 inline-block border border-paper px-8 py-4 text-base font-bold uppercase tracking-widest text-paper transition-colors hover:border-pop hover:bg-pop"
             >
               Connect on LinkedIn
             </a>

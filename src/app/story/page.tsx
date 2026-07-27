@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function StoryPage() {
   return (
     <main className="mx-auto max-w-content px-5 pt-20 sm:px-8 sm:pt-28">
-      <p className="label text-[0.62rem] text-pop">{STORY.eyebrow}</p>
+      <p className="label text-[0.8rem] text-pop">{STORY.eyebrow}</p>
       <h1 className="display mt-6 max-w-4xl text-[clamp(2.4rem,6vw,4.8rem)] font-extrabold uppercase leading-[0.98] tracking-tight">
         {STORY.heading.replace(/\?$/, "")}
         <span className="text-pop">?</span>
@@ -28,7 +28,7 @@ export default function StoryPage() {
       <Reveal className="mt-14">
         <Link
           href="/#family"
-          className="inline-block bg-ink px-8 py-4 text-sm font-bold uppercase tracking-widest text-paper transition-colors hover:bg-pop"
+          className="inline-block bg-ink px-8 py-4 text-base font-bold uppercase tracking-widest text-paper transition-colors hover:bg-pop"
         >
           Meet the family
         </Link>

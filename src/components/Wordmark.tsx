@@ -20,11 +20,11 @@ export function Wordmark({ compact = false }: { compact?: boolean }) {
     <span className="inline-flex items-center gap-3 text-ink">
       <HouseMark className="h-8 w-8 shrink-0" />
       <span className="display leading-none">
-        <span className="block text-[1.05rem] font-bold uppercase tracking-tight">
+        <span className="block text-[1.15rem] font-bold uppercase tracking-tight">
           Our Little Company
         </span>
         {!compact && (
-          <span className="label mt-1 block text-[0.5rem] text-faint">
+          <span className="label mt-1 block text-[0.6rem] text-faint">
             A family of home-grown brands
           </span>
         )}
