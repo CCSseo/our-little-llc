@@ -25,7 +25,7 @@ export const SITE = {
   tagline:
     "A little holding company for a family of home-grown brands, every one imagined, designed, and built from the ground up.",
   metaDescription:
-    "Our Little Company LLC is the family holding company behind Our Little Book, Chorzle, and Carroll Consulting: passion projects imagined, designed, and built from the ground up in-house, with more on the way.",
+    "Our Little Company LLC is the family holding company behind Our Little Book LLC, Chorzle LLC, and Carroll Consulting LLC: passion projects imagined, designed, and built from the ground up in-house, with more on the way.",
 };
 
 export const HERO = {
@@ -64,7 +64,7 @@ export type Brand = {
 export const BRANDS: Brand[] = [
   {
     slug: "our-little-book",
-    name: "Our Little Book",
+    name: "Our Little Book LLC",
     descriptor: "Illustrated children's books with a real hardcover print path",
     status: "LIVE",
     flagship: true,
@@ -86,7 +86,7 @@ export const BRANDS: Brand[] = [
   },
   {
     slug: "chorzle",
-    name: "Chorzle",
+    name: "Chorzle LLC",
     descriptor: "A chores-to-rewards app for families",
     status: "LIVE",
     flagship: true,
@@ -109,7 +109,7 @@ export const BRANDS: Brand[] = [
   },
   {
     slug: "carroll-consulting",
-    name: "Carroll Consulting",
+    name: "Carroll Consulting LLC",
     descriptor: "Marketing, business operations, and the software to run them",
     status: "ACTIVE / NOT TAKING NEW CLIENTS",
     flagship: true,
