@@ -32,12 +32,12 @@ export function Nav() {
           <Wordmark />
         </Link>
 
-        <div className="hidden items-center gap-8 sm:flex">
+        <div className="hidden items-center gap-5 sm:flex lg:gap-8">
           {LINKS.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="label text-[0.75rem] text-ink transition-colors hover:text-pop"
+              className="label whitespace-nowrap text-[0.75rem] text-ink transition-colors hover:text-pop"
             >
               {l.label}
             </Link>

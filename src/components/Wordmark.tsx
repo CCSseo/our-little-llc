@@ -24,7 +24,7 @@ export function Wordmark({ compact = false }: { compact?: boolean }) {
           Our Little Company
         </span>
         {!compact && (
-          <span className="label mt-1 block text-[0.6rem] text-faint">
+          <span className="label mt-1 hidden whitespace-nowrap text-[0.6rem] text-faint lg:block">
             A family of home-grown brands
           </span>
         )}

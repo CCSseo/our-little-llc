@@ -27,7 +27,7 @@ export default function HomePage() {
             />
           )}
         </div>
-        <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+        <div className="mt-10 flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between">
           <p className="max-w-prose text-lg leading-relaxed text-muted sm:text-xl">{HERO.sub}</p>
           <p className="display shrink-0 text-lg font-bold uppercase tracking-tight text-ink">
             {HERO.note}
