@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" fill="none">
+  <!-- Our Little Company: horizontal lockup, inverse (for black grounds). -->
+  <g transform="translate(10 12)">
+    <path d="M20 82 L20 45 L48 19 L58 28.3 L58 21 L68 21 L68 37.6 L76 45 L76 82 Z" fill="#ffffff"/>
+    <path d="M41 82 V64 A7 7 0 0 1 55 64 V82 Z" fill="#e10600"/>
+  </g>
+  <text x="112" y="66" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="1" fill="#ffffff">OUR LITTLE COMPANY</text>
+  <text x="114" y="92" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="6" fill="#9a9a9a">A FAMILY OF HOME-GROWN BRANDS</text>
+</svg>

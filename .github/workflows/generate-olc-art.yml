@@ -1,0 +1,54 @@
+name: Generate Our Little Company art
+
+# On-demand: render the Grok art for the site (home hero, one image per brand
+# landing page, and a rendered logo exploration), then commit the images to the
+# branch the workflow was run on so Vercel redeploys with them. Mirrors
+# carroll-site's regenerate-covers workflow. Needs the XAI_API_KEY repo secret;
+# without it the run fails fast and commits nothing.
+#
+# Run it from the Actions tab (pick the branch). Existing images are skipped;
+# check "force" to regenerate everything.
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Regenerate even if images already exist"
+        type: boolean
+        default: false
+
+concurrency:
+  group: generate-olc-art
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      # The script has zero npm dependencies (plain fetch + fs), so no install.
+      - name: Generate art with Grok
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: node scripts/generate-art.mjs ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit + push the images
+        run: |
+          git config user.name "Joseph Carroll"
+          git config user.email "joseph@carrollconsultingservices.com"
+          git add public/art
+          if git diff --cached --quiet; then
+            echo "No new art to commit."
+          else
+            git commit -m "Add Grok-generated art"
+            git push
+          fi

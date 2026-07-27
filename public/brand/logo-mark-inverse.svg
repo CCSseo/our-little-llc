@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Our Little Company: the solid house mark, inverse (for black grounds). -->
+  <path d="M20 82 L20 45 L48 19 L58 28.3 L58 21 L68 21 L68 37.6 L76 45 L76 82 Z" fill="#ffffff"/>
+  <path d="M41 82 V64 A7 7 0 0 1 55 64 V82 Z" fill="#e10600"/>
+</svg>
