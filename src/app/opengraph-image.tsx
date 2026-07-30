@@ -49,7 +49,7 @@ export default function OgImage() {
             A little company. A family of home-grown brands.
           </div>
           <div style={{ display: "flex", fontSize: 28, color: "#9a9a9a" }}>
-            Our Little Book · Chorzle · Carroll Consulting
+            Our Little Book LLC · Chorzle LLC · Carroll Consulting LLC
           </div>
         </div>
 

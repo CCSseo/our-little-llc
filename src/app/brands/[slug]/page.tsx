@@ -28,22 +28,35 @@ export default function BrandPage({ params }: Props) {
   const no = String(idx + 1).padStart(2, "0");
   const prev = BRANDS[(idx - 1 + BRANDS.length) % BRANDS.length];
   const next = BRANDS[(idx + 1) % BRANDS.length];
+  const art = getArt(brand.slug);
 
   return (
     <main>
-      {/* ---------- Landing hero ---------- */}
+      {/* ---------- Landing hero: name left, the brand's object right ---------- */}
       <section className="mx-auto max-w-content px-5 pt-20 sm:px-8 sm:pt-28">
         <div className="flex items-baseline gap-5">
           <span className="display text-lg font-bold text-pop">{no}</span>
           <p className="label text-[0.8rem] text-muted">A brand of {SITE.brandFull}</p>
         </div>
-        <h1 className="display mt-6 text-[clamp(3rem,10vw,8rem)] font-extrabold uppercase leading-[0.92] tracking-tight">
-          {brand.name}
-          <span className="text-pop">.</span>
-        </h1>
-        <p className="mt-6 max-w-3xl text-xl font-medium text-muted sm:text-2xl">
-          {brand.descriptor}
-        </p>
+        <div className={art ? "mt-6 grid items-center gap-6 lg:grid-cols-[1fr_minmax(0,24rem)] lg:gap-12" : "mt-6"}>
+          <div>
+            <h1 className="display text-[clamp(2.8rem,8vw,7rem)] font-extrabold uppercase leading-[0.92] tracking-tight">
+              {brand.name}
+              <span className="text-pop">.</span>
+            </h1>
+            <p className="mt-6 max-w-3xl text-xl font-medium text-muted sm:text-2xl">
+              {brand.descriptor}
+            </p>
+          </div>
+          {art && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={art}
+              alt={ART_ALT[brand.slug] ?? `${brand.name} artwork`}
+              className="mx-auto mt-4 w-full max-w-sm lg:mx-0 lg:mt-0 lg:max-w-none"
+            />
+          )}
+        </div>
 
         {/* facts row */}
         <div className="mt-12 grid max-w-3xl grid-cols-1 gap-6 border-y border-ink/15 py-6 sm:grid-cols-3">
@@ -75,21 +88,6 @@ export default function BrandPage({ params }: Props) {
           </div>
         </div>
       </section>
-
-      {/* ---------- Art (appears once generated into public/art/) ---------- */}
-      {(() => {
-        const art = getArt(brand.slug);
-        return art ? (
-          <section className="mx-auto max-w-content px-5 pt-16 sm:px-8">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={art}
-              alt={ART_ALT[brand.slug] ?? `${brand.name} artwork`}
-              className="max-h-[34rem] w-full border border-ink/15 object-cover"
-            />
-          </section>
-        ) : null;
-      })()}
 
       {/* ---------- Story ---------- */}
       <section className="mx-auto max-w-content px-5 pt-16 sm:px-8">

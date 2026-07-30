@@ -19,9 +19,16 @@ export function BrandRow({ brand, index }: { brand: Brand; index: number }) {
           <p className="mt-3 max-w-2xl text-base text-muted group-hover:text-paper/60 sm:text-lg">
             {brand.descriptor}
           </p>
+          <span className="mt-3 flex items-center gap-2.5 sm:hidden">
+            <span aria-hidden className="h-2 w-2 rounded-full bg-pop" />
+            <span className="label text-[0.7rem] text-faint group-hover:text-paper/50">
+              {brand.status}
+            </span>
+          </span>
         </div>
         <div className="flex flex-col items-end gap-3">
-          <span className="label hidden text-[0.75rem] text-faint group-hover:text-paper/50 sm:block">
+          <span className="label hidden items-center gap-2.5 text-[0.75rem] text-faint group-hover:text-paper/50 sm:flex">
+            <span aria-hidden className="h-2 w-2 rounded-full bg-pop" />
             {brand.status}
           </span>
           <span

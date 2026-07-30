@@ -19,6 +19,7 @@ export function getArt(name: string): string | null {
 // Alt text for each piece, matching the prompts in scripts/generate-art.mjs.
 export const ART_ALT: Record<string, string> = {
   home: "A small black model house with a single red front door on a white background",
+  logo: "A bold black house mark with one red arched front door",
   "our-little-book":
     "A hardcover children's book with ink-wash cover art and a red ribbon bookmark",
   chorzle: "A red star magnet on a minimalist black and white chore chart",

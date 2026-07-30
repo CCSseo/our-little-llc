@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { STORY, SITE } from "@/lib/content";
 import { Reveal } from "@/components/Reveal";
+import { ART_ALT, getArt } from "@/lib/art";
 
 export const metadata: Metadata = {
   title: "The Story",
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function StoryPage() {
+  const art = getArt("logo");
   return (
     <main className="mx-auto max-w-content px-5 pt-20 sm:px-8 sm:pt-28">
       <p className="label text-[0.8rem] text-pop">{STORY.eyebrow}</p>
@@ -18,12 +20,24 @@ export default function StoryPage() {
         {STORY.heading.replace(/\?$/, "")}
         <span className="text-pop">?</span>
       </h1>
-      <div className="mt-12 max-w-prose space-y-8 text-xl leading-relaxed text-ink/80">
-        {STORY.paragraphs.map((p, i) => (
-          <Reveal key={i} delay={i * 60}>
-            <p>{p}</p>
+      <div className={art ? "mt-12 xl:grid xl:grid-cols-[minmax(0,46rem)_1fr] xl:gap-16" : "mt-12"}>
+        <div className="max-w-prose space-y-8 text-xl leading-relaxed text-ink/80">
+          {STORY.paragraphs.map((p, i) => (
+            <Reveal key={i} delay={i * 60}>
+              <p>{p}</p>
+            </Reveal>
+          ))}
+        </div>
+        {art && (
+          <Reveal className="mt-12 xl:mt-0">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={art}
+              alt={ART_ALT.logo}
+              className="mx-auto w-56 xl:sticky xl:top-32 xl:mx-0 xl:w-full xl:max-w-sm"
+            />
           </Reveal>
-        ))}
+        )}
       </div>
       <Reveal className="mt-14">
         <Link

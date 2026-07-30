@@ -1,6 +1,7 @@
 import { BRANDS, CONTACT, FAMILY, HERO, PROMISE, SITE, VALUES } from "@/lib/content";
 import { BrandRow } from "@/components/BrandRow";
 import { Reveal } from "@/components/Reveal";
+import { HouseMark } from "@/components/Wordmark";
 import { ART_ALT, getArt } from "@/lib/art";
 import Link from "next/link";
 
@@ -14,7 +15,7 @@ export default function HomePage() {
       {/* ---------- Hero ---------- */}
       <section className="mx-auto max-w-content px-5 pb-20 pt-20 sm:px-8 sm:pt-28">
         <p className="label text-[0.8rem] text-pop">{HERO.eyebrow}</p>
-        <div className={heroArt ? "mt-6 grid items-center gap-10 lg:grid-cols-[1fr_minmax(0,32rem)]" : ""}>
+        <div className={heroArt ? "mt-6 grid items-center gap-4 lg:grid-cols-[1fr_minmax(0,32rem)] lg:gap-10" : ""}>
           <h1 className="display mt-6 max-w-5xl text-[clamp(2.4rem,7vw,6rem)] font-extrabold uppercase leading-[0.95] tracking-tight lg:mt-0">
             A little company. A family of home&#8209;grown brands<span className="text-pop">.</span>
           </h1>
@@ -123,7 +124,7 @@ export default function HomePage() {
 
       {/* ---------- Say hello ---------- */}
       <section className="mt-28 bg-ink text-paper">
-        <div className="mx-auto max-w-content px-5 py-20 sm:px-8 sm:py-28">
+        <div className="mx-auto flex max-w-content items-center justify-between gap-12 px-5 py-20 sm:px-8 sm:py-28">
           <Reveal>
             <h2 className="display max-w-4xl text-4xl font-extrabold uppercase leading-[1.02] tracking-tight sm:text-6xl">
               {CONTACT.heading}
@@ -139,6 +140,8 @@ export default function HomePage() {
               Connect on LinkedIn
             </a>
           </Reveal>
+          {/* the ghost house: faint mark, the one red door still lit */}
+          <HouseMark className="hidden h-48 w-48 shrink-0 text-paper/10 lg:block" />
         </div>
       </section>
     </main>
