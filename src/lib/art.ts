@@ -18,6 +18,14 @@ export function getArt(name: string): string | null {
 
 // Alt text for each piece, matching the prompts in scripts/generate-art.mjs.
 export const ART_ALT: Record<string, string> = {
+  "our-little-book-premium": "A black cloth storybook with an embossed moon and a red ribbon bookmark",
+  "chorzle-premium": "A sculptural red wooden reward star on a black base",
+  "carroll-consulting-premium": "A curved black sculpture carrying a single red sphere upward",
+  "soong-premium": "A clear glass lightbulb with a red filament on a black base",
+  "ladon-premium": "A small carved black dragon curled around a red apple",
+  "story-premium": "Three little black wooden houses, one with a red arched front door",
+
+  "home-premium": "A sculptural black wooden house with a red arched door on a white background",
   home: "A small black model house with a single red front door on a white background",
   logo: "A bold black house mark with one red arched front door",
   "our-little-book":

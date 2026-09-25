@@ -1,82 +1,54 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 import { Wordmark } from "./Wordmark";
 
 const LINKS = [
-  { href: "/#family", label: "The Family" },
-  { href: "/#how", label: "How We Build" },
-  { href: "/story", label: "The Story" },
+  { href: "/#family", label: "The family" },
+  { href: "/#how", label: "How we build" },
+  { href: "/story", label: "Our story" },
 ];
 
 export function Nav() {
-  const [scrolled, setScrolled] = useState(false);
-  const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const menu = useRef<HTMLDetailsElement>(null);
+  const closeMenu = () => { if (menu.current) menu.current.open = false; };
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    closeMenu();
+    const desktop = window.matchMedia("(min-width: 768px)");
+    desktop.addEventListener("change", closeMenu);
+    return () => desktop.removeEventListener("change", closeMenu);
+  }, [pathname]);
 
   return (
-    <header
-      className={`sticky top-0 z-50 border-b bg-paper transition-colors ${
-        scrolled || open ? "border-ink/10" : "border-transparent"
-      }`}
-    >
-      <nav className="mx-auto flex max-w-content items-center justify-between px-5 py-4 sm:px-8">
-        <Link href="/" aria-label="Our Little Company, home" onClick={() => setOpen(false)}>
-          <Wordmark />
-        </Link>
-
-        <div className="hidden items-center gap-5 sm:flex lg:gap-8">
-          {LINKS.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="label whitespace-nowrap text-[0.75rem] text-ink transition-colors hover:text-pop"
-            >
-              {l.label}
-            </Link>
+    <header className="sticky top-0 z-50 border-b border-line bg-paper">
+      <nav aria-label="Main navigation" className="shell site-nav flex items-center justify-between gap-4">
+        <Link href="/" aria-label="Our Little Company, home" onClick={closeMenu}><Wordmark /></Link>
+        <div className="hidden items-center gap-8 md:flex">
+          {LINKS.map((link) => (
+            <Link key={link.href} href={link.href} className="nav-link"
+              aria-current={pathname === link.href ? "page" : undefined}>{link.label}</Link>
           ))}
         </div>
-
-        <button
-          type="button"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 items-center justify-center border border-ink text-ink sm:hidden"
-        >
-          <svg viewBox="0 0 20 20" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            {open ? (
-              <path d="M5 5 L15 15 M15 5 L5 15" />
-            ) : (
-              <path d="M3 6 H17 M3 10 H17 M3 14 H17" />
-            )}
-          </svg>
-        </button>
-      </nav>
-
-      {open && (
-        <div className="border-t border-ink/10 bg-paper sm:hidden">
-          <div className="mx-auto flex max-w-content flex-col px-5 py-2">
-            {LINKS.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className="label border-b border-ink/10 py-4 text-[0.8rem] text-ink last:border-b-0 hover:text-pop"
-              >
-                {l.label}
-              </Link>
+        <details ref={menu} className="mobile-menu md:hidden" onKeyDown={(event) => {
+          if (event.key === "Escape" && menu.current?.open) {
+            closeMenu();
+            menu.current.querySelector("summary")?.focus();
+          }
+        }}>
+          <summary className="cursor-pointer list-none px-2 py-3 text-[.85rem] font-medium">Menu <span aria-hidden className="ml-1">+</span></summary>
+          <div className="absolute inset-x-0 top-full border-b border-line bg-paper px-6 py-3">
+            {LINKS.map((link) => (
+              <Link key={link.href} href={link.href} onClick={closeMenu}
+                aria-current={pathname === link.href ? "page" : undefined}
+                className="nav-link flex border-b border-line py-4 last:border-0">{link.label}</Link>
             ))}
           </div>
-        </div>
-      )}
+        </details>
+      </nav>
     </header>
   );
 }

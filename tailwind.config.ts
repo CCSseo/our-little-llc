@@ -16,7 +16,7 @@ const config: Config = {
         card: "#fafafa", // barely-raised surfaces
         ink: "#0a0a0a", // near-black text and inverted sections
         muted: "#5c5c5c", // secondary text
-        faint: "#9a9a9a", // tertiary / captions
+        faint: "#696969", // tertiary / captions
         line: "#e8e8e8", // hairline borders on white
         "line-dark": "#2a2a2a", // hairline borders on black
         pop: "#e10600", // the one red

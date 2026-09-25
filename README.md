@@ -16,13 +16,18 @@ database, no vault dependency**. All copy is hand-written in
 
 Three flagship brands, then two "workshop" projects:
 
-| Brand | Status shown | Link shown |
+| Brand | Focus | External destination |
 | --- | --- | --- |
-| Our Little Book | LIVE | ourlittlebook.com |
-| Chorzle | LIVE | chorzle.com |
-| Carroll Consulting | ACTIVE / NOT TAKING NEW CLIENTS | carrollconsultingservices.com |
-| SOONG | LIVE | meetsoong.com |
-| Ladon | LIVE / PRIVATE | none, on purpose |
+| Our Little Book | Storybooks | ourlittlebook.com |
+| Chorzle | Family life | chorzle.com |
+| Carroll Consulting | Consulting | carrollconsultingservices.com |
+| SOONG | Curiosity and exploration | None |
+| Ladon | Decision tools | None |
+
+Joseph's September 25 direction supersedes the previous activity badges:
+remove stale Live claims, do not advertise inactive status, and tell the
+story of what went into each build and what it taught us. SOONG and Ladon
+are presented as workshop case studies with no external product CTA.
 
 ## Privacy and voice rules (inherited from `carroll-site`, kept identical)
 
@@ -32,32 +37,60 @@ Three flagship brands, then two "workshop" projects:
   vendor specifics stay private, as does its prior "Money Me" name.
 - The invite-only Source of Truth site and the private Personal Assistant
   Portal are **not** shown or named.
-- No invented facts: no fake dates, metrics, revenue, or user counts. What is
-  live is called live; what is private is called private.
+- No invented facts: no fake dates, metrics, revenue, or user counts. Workshop
+  stories describe the craft and lessons without claims about current operation.
 
-## The look
+## The design direction
 
-High-end minimalist: black, white, and one red (`#e10600`) as the only pop
-color. Large type on purpose (18px base, oversized uppercase Archivo display
-headings, Inter body), hairline rules instead of cards, an editorial index of
-brands whose rows invert to black on hover, and a tiny line-drawn house mark
-rendered as pure SVG with the one red door. Zero external image assets;
-motion respects `prefers-reduced-motion`, and scroll reveals fail open
-without JS.
+**Simple and premium. A parent company for a lot of fun things.** This is
+Joseph's direction from September 25, 2026. The site introduces a family of
+things people can enjoy and use, with a warm, personal voice.
 
-Tokens live in `tailwind.config.ts` + `src/app/globals.css`. There are no
-per-brand colors: every brand is black/white with the shared red.
+Black, white, and one red (`#e10600`) remain the identity. Sentence-case
+Archivo headings, Inter body type, generous space, and fine rules create a
+quiet editorial layout. Use the refined house symbol with its red arched door and stacked lowercase wordmark.
+Avoid card grids, decorative badges, heavy hover inversions, and dense
+uppercase copy. The primary introduction and action belong before the hero
+art on a phone.
+
+Keep supporting text at least 13.5px and body copy at least 18px, with clear
+contrast, comfortable line height, and visible keyboard focus. Assume an
+older reader on a phone. The mobile menu works as a native disclosure,
+closes on navigation and Escape, and restores focus on Escape. Reveals are
+visible by default, including when JavaScript fails; reduced motion removes
+animation.
+
+The September 25 pass covers the home page, all five company pages, the
+story, navigation, footer, and social card. Public legal names remain in place. Each company page has a considered
+introduction, a making section, and a lesson from the build. External visit
+buttons appear only for the three flagships. Workshop pages lead into the
+build story. The story page has its own illustrated introduction and three
+short chapters.
+
+Seven new images form a coordinated editorial set in `public/art/*-premium.jpg`:
+a black wooden house for home, a family of houses for the story, and a
+storybook, reward star, rising sculpture, lightbulb, and dragon for the
+companies. They share a white backdrop, tactile materials, and one red
+accent. Existing originals remain available but are not shown in the index.
+`Artwork.tsx` reserves image space and provides accessible descriptions.
+
+The promise strip scrolls continuously, inspired by the CCS site. It pauses
+on hover and has a keyboard-accessible pause/play control; reduced motion
+uses a static wrapping line. The house caption has no red bullet.
+
+Tokens live in `tailwind.config.ts` and `src/app/globals.css`; shared page
+spacing, buttons, rows, and reading widths live in the stylesheet. There
+are no per-company accent colors.
 
 ## Pages
 
 Every route is statically rendered:
 
-- `/` — hero, the standing promise strip (black band), the family (editorial
-  index rows), the house rules (values), and a say-hello section (LinkedIn
-  only).
+- `/` — hero, a fine-rule promise strip, the company index, house rules, and a
+  say-hello section (LinkedIn only).
 - `/story` — why a holding company for little things exists.
-- `/brands/[slug]` — a dedicated landing page per brand: oversized name, a
-  facts row (status / origin / home), the story, what was built in-house, and
+- `/brands/[slug]` — a dedicated landing page per brand: name and visit link, a
+  facts row (company or project / focus / made here), the story, build lessons, and
   previous/next navigation through the family.
 - `opengraph-image.tsx`, `sitemap.ts`, `robots.ts`, `manifest.ts`,
   `not-found.tsx` — the SEO and polish plumbing, all generated in code.
@@ -67,12 +100,13 @@ JSON-LD in `app/layout.tsx` declares the `Organization` with each brand as a
 
 ## The logo
 
-The official logo is the hand-drawn little house with the one red door, kept
-as a font-free SVG suite in `public/brand/`: `logo-mark.svg` /
-`logo-mark-inverse.svg` (mark only, crisp at any size), the horizontal
-`logo-lockup.svg` / `logo-lockup-inverse.svg`, and 1024px PNG renders of both
-marks. The favicon and the in-site `Wordmark.tsx` component draw the same
-house.
+The identity is a simple house with a soft roof peak and a red arched door,
+paired with the lowercase two-line wordmark. It is shared by the navigation,
+footer, social card, favicon, and home-screen icon. The mark uses pure SVG
+paths and scales cleanly to small sizes. SVG light and inverse marks and
+lockups, plus 1024px PNG marks, live in `public/brand/`. Lockup SVG text uses
+Archivo with system sans-serif fallbacks. The favicon has a 32px PNG fallback
+and a 180px Apple touch icon.
 
 ## Optional: Grok-generated supporting art
 
@@ -108,6 +142,8 @@ npm run dev                  # http://localhost:3000
 ```
 
 Other scripts: `npm run build`, `npm run start`, `npm run typecheck`.
+Set `NEXT_BUILD_DIR=.next-preview` for a separate production review build
+while the development server is running.
 
 ## Deploying to Vercel
 
@@ -128,12 +164,15 @@ src/
     brands/[slug]/page.tsx  # one page per brand, generated from content.ts
     opengraph-image.tsx     # generated social card, no external assets
     sitemap.ts robots.ts manifest.ts not-found.tsx
-    globals.css             # the warm-paper design system
+    globals.css             # the shared design system
   components/
     Nav.tsx Footer.tsx      # sticky nav (mobile drawer), black family footer
-    BrandRow.tsx            # editorial index rows on the home page
+    BrandRow.tsx            # company index rows on the home page
+    PromiseStrip.tsx        # pausable continuous text
+    BrandName.tsx           # legal entity suffix treatment
+    Artwork.tsx             # shared reserved image layout
     Wordmark.tsx            # the line-drawn house mark + wordmark (pure SVG)
-    Reveal.tsx              # one-shot scroll reveal, fails open without JS
+    Reveal.tsx              # one-shot scroll reveal, visible by default
   lib/
     content.ts              # ALL site copy + brand data, single source of truth
 ```

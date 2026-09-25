@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { SITE } from "@/lib/content";
+import { HERO, SITE } from "@/lib/content";
 
 export const alt = `${SITE.brandFull}: a family of home-grown brands`;
 export const size = { width: 1200, height: 630 };
@@ -25,9 +25,9 @@ export default function OgImage() {
       >
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
           {/* the solid house mark */}
-          <svg width="84" height="84" viewBox="0 0 96 96">
-            <path d="M20 82 L20 45 L48 19 L58 28.3 L58 21 L68 21 L68 37.6 L76 45 L76 82 Z" fill="#ffffff" />
-            <path d="M41 82 L41 64 A7 7 0 0 1 55 64 L55 82 Z" fill="#e10600" />
+          <svg width="84" height="84" viewBox="0 0 64 64">
+            <path d="M10 29.5 29.9 12.4Q32 10.6 34.1 12.4L54 29.5V53Q54 56 51 56H13Q10 56 10 53Z" fill="#ffffff" />
+            <path d="M25 56V42A7 7 0 0 1 39 42V56Z" fill="#e10600" />
           </svg>
           <div style={{ display: "flex", fontSize: 26, letterSpacing: 8, color: "#e10600", fontWeight: 700 }}>
             OUR LITTLE COMPANY LLC
@@ -42,11 +42,11 @@ export default function OgImage() {
               fontWeight: 800,
               lineHeight: 1.0,
               maxWidth: 1020,
-              textTransform: "uppercase",
+
               letterSpacing: -2,
             }}
           >
-            A little company. A family of home-grown brands.
+            {HERO.lines.join(" ")}
           </div>
           <div style={{ display: "flex", fontSize: 28, color: "#9a9a9a" }}>
             Our Little Book LLC · Chorzle LLC · Carroll Consulting LLC
