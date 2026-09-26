@@ -42,7 +42,14 @@ export const PROMISE = [
   "Ground up",
   "Built in-house",
   "Small on purpose",
-  "Made with curiosity"
+  "Made with curiosity",
+  "Room to play",
+  "Stories to share",
+  "Everyday ideas",
+  "A family of makers",
+  "A little imagination",
+  "Always learning",
+  "Good things take care"
 ];
 
 export type Brand = {

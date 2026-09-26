@@ -79,7 +79,9 @@ companies. They share a white backdrop, tactile materials, and one red
 accent. Existing originals remain available but are not shown in the index.
 `Artwork.tsx` reserves image space and provides accessible descriptions.
 
-The promise strip scrolls continuously, inspired by the CCS site. It pauses
+The promise strip scrolls continuously through twelve distinct phrases, inspired
+by the CCS site. Each cycle stays wider than the viewport with a phrase-length
+buffer, so even wide desktops never show the same phrase twice at once. It pauses
 on hover and has a keyboard-accessible pause/play control; reduced motion
 uses a static wrapping line. The house caption has no red bullet.
 
@@ -235,8 +237,10 @@ authorship for Chorzle and OLB where their current metadata declares it. Do not
 copy unrelated source tracking, navigation, promotional footer or schema blocks.
 
 Joseph's preferences: Title Case navigation; no default pill-shaped buttons.
-Source filters are simple underlined tabs. Sort defaults to original pubDate,
-newest first, not ingestion or modification time. Chorzle's September 25 batch
-contains 17 genuinely newly published backlog articles, confirmed by its release
-owner; do not backdate them to their internal historical topic slots. Earlier
-Chorzle, OLB and CCS dates remain unchanged.
+Source filters are simple underlined tabs. Sort defaults to the canonical source's
+pubDate, newest first, not ingestion or modification time. On September 25,
+Joseph explicitly requested that Chorzle's 17 backlog posts use their earlier
+intended Monday publication cadence. The Chorzle website owns that correction
+and preserves the actual first-publication timestamps in its audit history.
+OLC follows the corrected source dates with no local date overrides or artificial
+brand rotation. Refresh the saved snapshot after a source-owned correction.

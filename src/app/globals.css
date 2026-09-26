@@ -160,8 +160,8 @@ body { background: #fff; color: var(--ink); font-family: "Inter", ui-sans-serif,
 /* The moving promise is one continuous, pausable line. */
 .promise-strip { display: flex; position: relative; overflow: hidden; }
 .promise-window { overflow: hidden; flex: 1; mask-image: linear-gradient(to right,transparent,#000 3%,#000 97%,transparent); }
-.promise-track { display: flex; width: max-content; animation: promise-scroll 38s linear infinite; }
-.promise-group { display: flex; align-items: center; flex: 0 0 auto; }
+.promise-track { display: flex; width: max-content; animation: promise-scroll 95s linear infinite; }
+.promise-group { display: flex; align-items: center; justify-content: space-around; flex: 0 0 auto; min-width: calc(100vw + 24rem); }
 .promise-group > span { display: flex; align-items: center; gap: 4rem; padding: 1.2rem 2rem; font-size: .9rem; letter-spacing: .04em; white-space: nowrap; }
 .promise-divider { font-size: 1rem; color: #aaa; font-weight: 400; }
 .promise-toggle { position: relative; flex: 0 0 3rem; display: grid; place-items: center; background: white; color: #777; border-left: 1px solid var(--rule); }
@@ -206,7 +206,7 @@ body { background: #fff; color: var(--ink); font-family: "Inter", ui-sans-serif,
 }
 @media (max-width: 767px) {
  .promise-group > span { gap: 2rem; padding: 1rem 1.2rem; font-size: .85rem; }
- .promise-track { animation-duration: 32s; }
+ .promise-track { animation-duration: 76s; }
  .brand-breadcrumb .eyebrow { font-size: .75rem; }
  .brand-hero { margin-top: 1.6rem; }
  .brand-hero-art { height: 17rem; max-width: 23rem; aspect-ratio: auto; }
@@ -229,7 +229,7 @@ body { background: #fff; color: var(--ink); font-family: "Inter", ui-sans-serif,
 }
 @media (prefers-reduced-motion: reduce) {
  .promise-track { animation: none; width: 100%; }
- .promise-group { flex-wrap: wrap; justify-content: center; width: 100%; }
+ .promise-group { flex-wrap: wrap; justify-content: center; width: 100%; min-width: 0; }
  .promise-group > span { padding: .5rem .7rem; gap: 1rem; white-space: normal; }
  .promise-group[aria-hidden], .promise-toggle { display: none; }
 }
