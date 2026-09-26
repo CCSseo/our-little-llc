@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { HouseMark } from "@/components/Wordmark";
 
 export default function NotFound() {
@@ -11,12 +10,12 @@ export default function NotFound() {
       <p className="mt-5 max-w-md text-lg text-muted">
         Whatever used to be here, it is not one of ours. The front porch is this way.
       </p>
-      <Link
+      <a
         href="/"
         className="button button-dark mt-8"
       >
         Back home
-      </Link>
+      </a>
     </main>
   );
 }

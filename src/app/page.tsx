@@ -1,9 +1,9 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import { BRANDS, CONTACT, FAMILY, HERO, SITE, VALUES } from "@/lib/content";
 import { BrandRow } from "@/components/BrandRow";
 import { Reveal } from "@/components/Reveal";
 import { HouseMark } from "@/components/Wordmark";
 import { Artwork } from "@/components/Artwork";
-import Link from "next/link";
 import { FEED_SOURCES } from "@/lib/feed/sources";
 import { getFeed } from "@/lib/feed/get-feed";
 import { FeedPost } from "@/components/FeedPost";
@@ -29,8 +29,8 @@ export default async function HomePage() {
           </h1>
           <p className="hero-intro">{HERO.sub}</p>
           <div className="hero-actions">
-            <Link href="#family" className="button button-dark">Meet the family <span aria-hidden>↘</span></Link>
-            <Link href="/story" className="text-link">Our story <span aria-hidden>↗</span></Link>
+            <a href="#family" className="button button-dark">Meet the family <ArrowIcon direction="down-right" /></a>
+            <a href="/story" className="text-link">Our story <ArrowIcon direction="up-right" /></a>
           </div>
         </div>
         <figure className="hero-figure">
@@ -77,7 +77,7 @@ export default async function HomePage() {
           <p className="section-description">Fresh notes from across the family, with a link back to every original.</p>
         </div>
         <div className="feed-grid">{latestFromEach.map((post) => <FeedPost key={post.url} post={post} />)}</div>
-        <Link href="/feed" className="text-link">Explore the feed <span aria-hidden>↗</span></Link>
+        <a href="/feed" className="text-link">Explore the feed <ArrowIcon direction="up-right" /></a>
       </section>
 
       <section className="contact-section">
@@ -86,7 +86,7 @@ export default async function HomePage() {
             <p className="eyebrow text-paper/70">The front door</p>
             <h2 className="section-title">{CONTACT.heading}<span className="text-pop">.</span></h2>
             <p className="contact-copy">{CONTACT.body}</p>
-            <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" className="button button-light">Connect on LinkedIn <span aria-hidden>↗</span></a>
+            <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" className="button button-light">Connect on LinkedIn <ArrowIcon direction="up-right" /></a>
           </Reveal>
           <HouseMark className="contact-house" />
         </div>

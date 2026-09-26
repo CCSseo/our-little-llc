@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { ArrowIcon } from "@/components/ArrowIcon";
+
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { Wordmark } from "./Wordmark";
@@ -17,6 +18,8 @@ export function Nav() {
   const menu = useRef<HTMLDetailsElement>(null);
   const header = useRef<HTMLElement>(null);
   const closeMenu = () => { if (menu.current) menu.current.open = false; };
+  // Let the browser follow the link before collapsing its disclosure.
+  const closeAfterNavigation = () => requestAnimationFrame(closeMenu);
 
   useEffect(() => {
     closeMenu();
@@ -43,15 +46,15 @@ export function Nav() {
   return (
     <header ref={header} className="site-header sticky top-0 z-50 border-b border-line bg-paper">
       <nav aria-label="Main navigation" className="shell site-nav flex items-center justify-between gap-4">
-        <Link href="/" aria-label="Our Little Company, home" onClick={closeMenu}><Wordmark /></Link>
+        <a href="/" aria-label="Our Little Company, home" onClick={closeAfterNavigation}><Wordmark /></a>
         <div className="desktop-nav hidden items-center gap-8 md:flex">
           {LINKS.map((link) => (
-            <Link key={link.href} href={link.href} className="nav-link"
-              aria-current={pathname === link.href ? "page" : undefined}>{link.label}</Link>
+            <a key={link.href} href={link.href} className="nav-link"
+              aria-current={pathname === link.href ? "page" : undefined}>{link.label}</a>
           ))}
         </div>
         <details ref={menu} className="mobile-menu md:hidden" onBlur={(event) => {
-          if (!event.currentTarget.contains(event.relatedTarget as Node | null)) closeMenu();
+          if (event.relatedTarget instanceof Node && !event.currentTarget.contains(event.relatedTarget)) closeMenu();
         }}>
           <summary className="mobile-menu-toggle" aria-controls="mobile-navigation">
             <span className="menu-when-closed">Menu</span><span className="menu-when-open">Close</span>
@@ -63,11 +66,11 @@ export function Nav() {
               <ul className="mobile-menu-links">
                 {LINKS.map((link, i) => (
                   <li key={link.href}>
-                    <Link href={link.href} onClick={closeMenu}
+                    <a href={link.href} onClick={closeAfterNavigation}
                       aria-current={pathname === link.href ? "page" : undefined} className="mobile-menu-link">
                       <span className="mobile-menu-number" aria-hidden>0{i + 1}</span>
-                      <span>{link.label}</span><span className="mobile-menu-arrow" aria-hidden>↗</span>
-                    </Link>
+                      <span>{link.label}</span><ArrowIcon className="mobile-menu-arrow" />
+                    </a>
                   </li>
                 ))}
               </ul>

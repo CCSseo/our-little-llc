@@ -1,5 +1,5 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import type { Metadata } from "next";
-import Link from "next/link";
 import { STORY, SITE } from "@/lib/content";
 import { Reveal } from "@/components/Reveal";
 import { Artwork } from "@/components/Artwork";
@@ -33,7 +33,7 @@ export default function StoryPage() {
       <section className="shell story-outro">
         <p className="eyebrow">And that brings us here</p>
         <h2 className="section-title">Good things.<br />Made from the ground up.</h2>
-        <Link href="/#family" className="button button-dark">Meet the family <span aria-hidden>↗</span></Link>
+        <a href="/#family" className="button button-dark">Meet the family <ArrowIcon direction="up-right" /></a>
       </section>
     </main>
   );
