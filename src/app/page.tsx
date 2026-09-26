@@ -4,9 +4,16 @@ import { Reveal } from "@/components/Reveal";
 import { HouseMark } from "@/components/Wordmark";
 import { Artwork } from "@/components/Artwork";
 import Link from "next/link";
+import { FEED_SOURCES } from "@/lib/feed/sources";
+import { getFeed } from "@/lib/feed/get-feed";
+import { FeedPost } from "@/components/FeedPost";
 import { PromiseStrip } from "@/components/PromiseStrip";
 
-export default function HomePage() {
+export const revalidate = 3600;
+
+export default async function HomePage() {
+  const { posts } = await getFeed();
+  const latestFromEach = FEED_SOURCES.flatMap((source) => posts.find((post) => post.sourceId === source.id) ?? []);
   const flagships = BRANDS.filter((b) => b.flagship);
   const workshop = BRANDS.filter((b) => !b.flagship);
 
@@ -62,6 +69,15 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="shell section-space home-feed" aria-labelledby="feed-heading">
+        <div className="section-intro">
+          <div><p className="eyebrow">A little something to read</p><h2 id="feed-heading" className="section-title">Our Little Feed.</h2></div>
+          <p className="section-description">Fresh notes from across the family, with a link back to every original.</p>
+        </div>
+        <div className="feed-grid">{latestFromEach.map((post) => <FeedPost key={post.url} post={post} />)}</div>
+        <Link href="/feed" className="text-link">Explore the feed <span aria-hidden>↗</span></Link>
       </section>
 
       <section className="contact-section">
