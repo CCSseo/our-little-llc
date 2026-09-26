@@ -61,7 +61,11 @@ Keep supporting text at least 13.5px and body copy at least 18px, with clear
 contrast, comfortable line height, and visible keyboard focus. Assume an
 older reader on a phone. The mobile menu works as a native disclosure with full-width numbered rows and
 a Menu/Close control. It closes on navigation, outside taps, focus leaving the
-menu, desktop resizing and Escape, restoring focus on Escape. Reveals are
+menu, desktop resizing and Escape, restoring focus on Escape. Public navigation
+uses native links so document and section navigation work without client-router
+interception, including the in-app browser. Mobile links collapse the disclosure
+after activation; null focus transitions do not dismiss it before a touch click.
+All interface arrows are a shared drawn SVG icon, never emoji or font glyphs. Reveals are
 visible by default, including when JavaScript fails; reduced motion removes
 animation.
 
@@ -236,7 +240,7 @@ Use source BlogPosting metadata for bylines: Joseph Carroll at CCS, organization
 authorship for Chorzle and OLB where their current metadata declares it. Do not
 copy unrelated source tracking, navigation, promotional footer or schema blocks.
 
-Joseph's preferences: Title Case navigation; no default pill-shaped buttons.
+Joseph's preferences: Title Case navigation; no default pill-shaped buttons; no emoji.
 Source filters are simple underlined tabs. Sort defaults to the canonical source's
 pubDate, newest first, not ingestion or modification time. On September 25,
 Joseph explicitly requested that Chorzle's 17 backlog posts use their earlier

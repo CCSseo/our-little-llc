@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowIcon } from "@/components/ArrowIcon";
+
 import { useState } from "react";
 import { FeedPost } from "./FeedPost";
 import { FEED_SOURCES, type FeedPost as Post, type FeedSourceId } from "@/lib/feed/sources";
@@ -26,7 +28,7 @@ export function FeedArchive({ posts }: { posts: Post[] }) {
       <div className="feed-grid" id="feed-results">
         {filtered.slice(0, visible).map((post) => <FeedPost key={post.url} post={post} />)}
       </div>
-      {visible < filtered.length ? <div className="feed-more"><button type="button" className="button button-dark" onClick={() => setVisible((count) => count + 9)} aria-controls="feed-results">A little more reading <span aria-hidden>↓</span></button><p aria-live="polite">Showing {Math.min(visible, filtered.length)} of {filtered.length} notes</p></div> : null}
+      {visible < filtered.length ? <div className="feed-more"><button type="button" className="button button-dark" onClick={() => setVisible((count) => count + 9)} aria-controls="feed-results">A little more reading <ArrowIcon direction="down" /></button><p aria-live="polite">Showing {Math.min(visible, filtered.length)} of {filtered.length} notes</p></div> : null}
     </>
   );
 }

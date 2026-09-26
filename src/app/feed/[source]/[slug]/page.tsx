@@ -1,5 +1,5 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import { getFeed } from "@/lib/feed/get-feed";
@@ -49,7 +49,7 @@ export default async function ReaderPage({ params }: Props) {
   return (
     <main id="main-content" className="shell reader-page">
       {schema ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} /> : null}
-      <Link href="/feed" className="text-link">← Our Little Feed</Link>
+      <a href="/feed" className="text-link"><ArrowIcon direction="left" /> Our Little Feed</a>
       <article>
         <header className="reader-header">
           <p className="eyebrow">From {publication.publication}</p>
@@ -60,12 +60,12 @@ export default async function ReaderPage({ params }: Props) {
               {article?.author ? <p>By {article.author.url ? <a href={article.author.url}>{article.author.name}</a> : article.author.name}</p> : null}
               <p><time dateTime={post.publishedAt}>Published {formatFeedDate(post.publishedAt)}</time></p>
             </div>
-            <a href={post.url} className="text-link">Read the Original <span aria-hidden>↗</span></a>
+            <a href={post.url} className="text-link">Read the Original <ArrowIcon direction="up-right" /></a>
           </div>
           <p className="reader-permission">Republished with permission from {article?.publisher.name || publication.name}. Original authorship and publication credit are preserved; Our Little Company provides this reading view.</p>
         </header>
-        {article ? <div className="reader-body" dangerouslySetInnerHTML={{ __html: article.html }} /> : <div className="reader-unavailable"><h2>This story is at its original home.</h2><p>We couldn’t load the full article here just now. You can still read it at {publication.name}.</p><a className="text-link" href={post.url}>Read the Original <span aria-hidden>↗</span></a></div>}
-        <footer className="reader-footer"><p>Originally published by {publication.name}{article?.author ? ` · ${article.author.name}` : ""}.</p><a href={post.url} className="text-link">Read the Original <span aria-hidden>↗</span></a></footer>
+        {article ? <div className="reader-body" dangerouslySetInnerHTML={{ __html: article.html }} /> : <div className="reader-unavailable"><h2>This story is at its original home.</h2><p>We couldn’t load the full article here just now. You can still read it at {publication.name}.</p><a className="text-link" href={post.url}>Read the Original <ArrowIcon direction="up-right" /></a></div>}
+        <footer className="reader-footer"><p>Originally published by {publication.name}{article?.author ? ` · ${article.author.name}` : ""}.</p><a href={post.url} className="text-link">Read the Original <ArrowIcon direction="up-right" /></a></footer>
       </article>
     </main>
   );

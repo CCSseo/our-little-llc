@@ -1,3 +1,4 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import type { Metadata } from "next";
 import { FeedArchive } from "@/components/FeedArchive";
 import { getFeed } from "@/lib/feed/get-feed";
@@ -24,7 +25,7 @@ export default async function FeedPage() {
       <aside className="feed-colophon" aria-label="About the original publications">
         <p className="eyebrow">Every story has a home.</p>
         <p>Read the original publications’ words here, shared with permission and full source credit. Every article also links to its original home, where authorship and the canonical version remain.</p>
-        <div>{FEED_SOURCES.map((source) => <a className="text-link" key={source.id} href={source.url}>{source.name} <span aria-hidden>↗</span></a>)}</div>
+        <div>{FEED_SOURCES.map((source) => <a className="text-link" key={source.id} href={source.url}>{source.name} <ArrowIcon direction="up-right" /></a>)}</div>
         {savedSources.length ? <p className="feed-saved-note">Showing saved notes from {savedSources.map((id) => FEED_SOURCES.find((source) => source.id === id)!.name).join(" and ")}. Visit the original publications for their latest stories.</p> : null}
       </aside>
     </main>

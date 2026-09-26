@@ -332,3 +332,6 @@ body { background: #fff; color: var(--ink); font-family: "Inter", ui-sans-serif,
 .feed-post-actions { align-items: flex-start; gap: .2rem 1.5rem; }
 .feed-original-context { flex: 1 1 9rem; }
 .feed-original-context .feed-post-source { margin-top: -.15rem; }
+
+/* Drawn arrows stay consistent across browsers, without emoji-font fallback. */
+.arrow-icon { display: inline-block; width: 1em; height: 1em; flex-shrink: 0; vertical-align: -.1em; }

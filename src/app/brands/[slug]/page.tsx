@@ -1,5 +1,5 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BRANDS, SITE } from "@/lib/content";
 import { Reveal } from "@/components/Reveal";
@@ -30,7 +30,7 @@ export default function BrandPage({ params }: Props) {
     <main id="main-content">
       <div className="shell page-space brand-page-top">
         <div className="brand-breadcrumb">
-          <Link href="/#family" className="text-link text-muted">← The family</Link>
+          <a href="/#family" className="text-link text-muted"><ArrowIcon direction="left" /> The family</a>
           <span className="eyebrow">{String(idx + 1).padStart(2,"0")} / {String(BRANDS.length).padStart(2,"0")}</span>
         </div>
         <section className="brand-hero">
@@ -40,10 +40,10 @@ export default function BrandPage({ params }: Props) {
             <p className="brand-lede">{brand.descriptor}</p>
             {brand.url ? (
               <a href={brand.url} target="_blank" rel="noopener noreferrer" className="button button-dark mt-7">
-                Explore {brand.name.replace(/ LLC$/, "")} <span aria-hidden>↗</span>
+                Explore {brand.name.replace(/ LLC$/, "")} <ArrowIcon direction="up-right" />
               </a>
             ) : (
-              <a href="#the-build" className="text-link mt-5">Inside the build <span aria-hidden>↓</span></a>
+              <a href="#the-build" className="text-link mt-5">Inside the build <ArrowIcon direction="down" /></a>
             )}
           </div>
           <Artwork name={`${brand.slug}-premium`} className="brand-hero-art" priority />
@@ -76,8 +76,8 @@ export default function BrandPage({ params }: Props) {
         </div>
       </section>
       <nav aria-label="More brands" className="shell brand-pagination">
-        <Link href={`/brands/${prev.slug}`}><span className="eyebrow">← Previous</span><p>{prev.name.replace(/ LLC$/, "")}</p></Link>
-        <Link href={`/brands/${next.slug}`}><span className="eyebrow">Next →</span><p>{next.name.replace(/ LLC$/, "")}</p></Link>
+        <a href={`/brands/${prev.slug}`}><span className="eyebrow"><ArrowIcon direction="left" /> Previous</span><p>{prev.name.replace(/ LLC$/, "")}</p></a>
+        <a href={`/brands/${next.slug}`}><span className="eyebrow">Next <ArrowIcon direction="right" /></span><p>{next.name.replace(/ LLC$/, "")}</p></a>
       </nav>
     </main>
   );
