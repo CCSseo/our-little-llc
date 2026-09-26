@@ -1,6 +1,13 @@
 {
-  "capturedAt": "2026-09-26T02:28:18.572329+00:00",
+  "capturedAt": "2026-09-26T03:06:25.205Z",
   "posts": [
+    {
+      "title": "OpenAI's ChatGPT Ads Pixel Can Behave Like a Cross-Site Tracker",
+      "excerpt": "Independent research says OpenAI's ChatGPT Ads measurement pixel can act like third-party tracking. What that means for consent, tag governance and attribution.",
+      "url": "https://carrollconsultingservices.com/blog/2026-09-25-openai-s-chatgpt-ads-pixel-can-behave-like-a-cross-site",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
     {
       "title": "Cloudflare AI Crawler Defaults Just Flipped: The Access Decision You Did Not Make",
       "excerpt": "The Cloudflare AI crawler defaults flipped on September 15: Training and Agent bots are now blocked on ad pages. Here is the access decision to make now.",
@@ -639,122 +646,122 @@
       "sourceId": "ccs"
     },
     {
+      "title": "A Cozy Movie Night Room Reset",
+      "excerpt": "Share one quick chore each before settling into a warm movie night, with optional treats kids can choose with their own points.",
+      "url": "https://chorzle.com/buzz/a-cozy-movie-night-room-reset-2026-09-21",
+      "publishedAt": "2026-09-21T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
       "title": "Keeping the Rhythm When the Week Spills Over",
       "excerpt": "When busy autumn schedules upend your plans, trimming routines down to simple essentials helps your family stay grounded without guilt.",
       "url": "https://chorzle.com/buzz/keeping-the-rhythm-when-the-week-spills-over-2026-09-25",
-      "publishedAt": "2026-09-25T15:58:27.000Z",
-      "sourceId": "chorzle"
-    },
-    {
-      "title": "Tending the Rooms Everyone Shares",
-      "excerpt": "When nobody owns the living room or hallway, clutter collects quickly. Here is a friendly way to share care for common spaces.",
-      "url": "https://chorzle.com/buzz/tending-the-rooms-everyone-shares-2026-09-25",
-      "publishedAt": "2026-09-25T15:56:19.000Z",
-      "sourceId": "chorzle"
-    },
-    {
-      "title": "Passing the Torch to Your Teenager at Home",
-      "excerpt": "Handing an entire corner of family life to your teenager means giving up some control so they can run things their way.",
-      "url": "https://chorzle.com/buzz/passing-the-torch-to-your-teenager-at-home-2026-09-25",
-      "publishedAt": "2026-09-25T15:50:05.000Z",
+      "publishedAt": "2026-09-14T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Welcoming Little Helpers Into Daily Home Work",
       "excerpt": "Welcoming a toddler into everyday chores takes extra time and patience, but simple steps can build quiet warmth across your household routines.",
       "url": "https://chorzle.com/buzz/welcoming-little-helpers-into-daily-home-work-2026-09-25",
-      "publishedAt": "2026-09-25T15:47:42.000Z",
+      "publishedAt": "2026-09-07T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Tending the Rooms Everyone Shares",
+      "excerpt": "When nobody owns the living room or hallway, clutter collects quickly. Here is a friendly way to share care for common spaces.",
+      "url": "https://chorzle.com/buzz/tending-the-rooms-everyone-shares-2026-09-25",
+      "publishedAt": "2026-08-31T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Noticing the Real Work Behind Every Chore",
       "excerpt": "Swap quick, automatic praise for simple observations that show your kids you genuinely see the care they put into everyday jobs around the house.",
       "url": "https://chorzle.com/buzz/noticing-the-real-work-behind-every-chore-2026-09-25",
-      "publishedAt": "2026-09-25T15:44:10.000Z",
+      "publishedAt": "2026-08-24T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Untangling Allowance and Everyday Helping",
       "excerpt": "A calm, practical guide to balancing money, earned points, and shared household help without turning daily family life into a round of negotiations.",
       "url": "https://chorzle.com/buzz/untangling-allowance-and-everyday-helping-2026-09-25",
-      "publishedAt": "2026-09-25T15:43:34.000Z",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "A Gentle Evening Reset Before Bed",
       "excerpt": "A short, shared family tidy before bedtime helps clear the main living spaces so everyone greets a quiet room tomorrow morning.",
       "url": "https://chorzle.com/buzz/a-gentle-evening-reset-before-bed-2026-09-25",
-      "publishedAt": "2026-09-25T15:42:58.000Z",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Anchoring Small Chores Into the Morning Rush",
       "excerpt": "Try pairing one small household job with breakfast or getting ready, using ordinary chores, clear choices, and the devices your family already owns.",
       "url": "https://chorzle.com/buzz/anchoring-small-chores-into-the-morning-rush-2026-09-25",
-      "publishedAt": "2026-09-25T15:42:21.000Z",
+      "publishedAt": "2026-08-03T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Passing the Torch to Your Teenager at Home",
+      "excerpt": "Handing an entire corner of family life to your teenager means giving up some control so they can run things their way.",
+      "url": "https://chorzle.com/buzz/passing-the-torch-to-your-teenager-at-home-2026-09-25",
+      "publishedAt": "2026-07-27T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Making Chores Fair When Kids Are Different",
       "excerpt": "When children differ in age or ability, equal work is not always fair. Here is how to share tasks warmly.",
       "url": "https://chorzle.com/buzz/making-chores-fair-when-kids-are-different-2026-09-25",
-      "publishedAt": "2026-09-25T15:38:58.000Z",
+      "publishedAt": "2026-07-20T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "When Chores Meet a Hard Refusal",
       "excerpt": "When chores meet resistance after a tiring day, simple steps can keep the conversation calm, kind, and steady without turning chores into a battle.",
       "url": "https://chorzle.com/buzz/when-chores-meet-a-hard-refusal-2026-09-25",
-      "publishedAt": "2026-09-25T15:38:23.000Z",
+      "publishedAt": "2026-07-13T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Inviting Real Help Instead of Demanding It",
       "excerpt": "Shifting the tone around household jobs starts with open conversations, shared choices, and simple routines that welcome kids into the real work of home.",
       "url": "https://chorzle.com/buzz/inviting-real-help-instead-of-demanding-it-2026-09-25",
-      "publishedAt": "2026-09-25T15:37:53.000Z",
+      "publishedAt": "2026-07-06T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Setting Up a Sunday Launch Pad for the Week",
       "excerpt": "Turn Sunday sorting into a gentle hunt for missing gear, clear the entryway, and let kids shape next week's household rhythm.",
       "url": "https://chorzle.com/buzz/setting-up-a-sunday-launch-pad-for-the-week-2026-09-25",
-      "publishedAt": "2026-09-25T15:37:14.000Z",
+      "publishedAt": "2026-06-29T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Running a Pretend Cafe in the Kitchen",
       "excerpt": "Turn evening table setup and unloading clean dishes into a playful pretend cafe where everyone works together before dinner.",
       "url": "https://chorzle.com/buzz/running-a-pretend-cafe-in-the-kitchen-2026-09-25",
-      "publishedAt": "2026-09-25T15:36:33.000Z",
+      "publishedAt": "2026-06-22T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "The Toy Library Reset for Busy Afternoons",
       "excerpt": "Sort a messy play area into clear spots with silly shelf nicknames, simple shared tasks, and a modest family treat.",
       "url": "https://chorzle.com/buzz/the-toy-library-reset-for-busy-afternoons-2026-09-25",
-      "publishedAt": "2026-09-25T15:35:57.000Z",
+      "publishedAt": "2026-06-15T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Building a Kid-Created Reward Menu",
       "excerpt": "Sit down together this September to dream up simple, playful household privileges that make your family chore routine feel inviting and collaborative.",
       "url": "https://chorzle.com/buzz/building-a-kid-created-reward-menu-2026-09-25",
-      "publishedAt": "2026-09-25T15:35:21.000Z",
+      "publishedAt": "2026-06-08T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
       "title": "Setting Up a Weekend Sock-Sorting Studio",
       "excerpt": "Turn laundry baskets and lonely socks into a relaxed family folding session with cozy tunes, clear jobs, and simple shared routines.",
       "url": "https://chorzle.com/buzz/setting-up-a-weekend-sock-sorting-studio-2026-09-25",
-      "publishedAt": "2026-09-25T15:29:50.000Z",
-      "sourceId": "chorzle"
-    },
-    {
-      "title": "A Cozy Movie Night Room Reset",
-      "excerpt": "Share one quick chore each before settling into a warm movie night, with optional treats kids can choose with their own points.",
-      "url": "https://chorzle.com/buzz/a-cozy-movie-night-room-reset-2026-09-21",
-      "publishedAt": "2026-09-25T14:00:50.000Z",
+      "publishedAt": "2026-06-01T14:00:00.000Z",
       "sourceId": "chorzle"
     },
     {
