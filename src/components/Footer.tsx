@@ -23,7 +23,7 @@ export function Footer() {
           <div>
             <p className="label mb-3 text-[.8rem] text-paper/60">A little more</p>
             <ul>
-              {[["/#family", "The family"], ["/#how", "How we build"], ["/story", "Our story"]].map(([href, label]) => (
+              {[["/#family", "The Family"], ["/#how", "How We Build"], ["/story", "Our Story"], ["/feed", "Our Little Feed"]].map(([href, label]) => (
                 <li key={href}><Link href={href} className="inline-flex min-h-11 items-center text-base text-paper/80 hover:text-paper">{label}</Link></li>
               ))}
             </ul>

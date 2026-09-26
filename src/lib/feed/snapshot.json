@@ -1,0 +1,971 @@
+{
+  "capturedAt": "2026-09-26T03:06:25.205Z",
+  "posts": [
+    {
+      "title": "OpenAI's ChatGPT Ads Pixel Can Behave Like a Cross-Site Tracker",
+      "excerpt": "Independent research says OpenAI's ChatGPT Ads measurement pixel can act like third-party tracking. What that means for consent, tag governance and attribution.",
+      "url": "https://carrollconsultingservices.com/blog/2026-09-25-openai-s-chatgpt-ads-pixel-can-behave-like-a-cross-site",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Cloudflare AI Crawler Defaults Just Flipped: The Access Decision You Did Not Make",
+      "excerpt": "The Cloudflare AI crawler defaults flipped on September 15: Training and Agent bots are now blocked on ad pages. Here is the access decision to make now.",
+      "url": "https://carrollconsultingservices.com/blog/cloudflare-ai-crawler-defaults-just-flipped-the-access",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "AI Mode Model Selection Just Made Your Search Result a Moving Target",
+      "excerpt": "AI Mode model selection lets searchers pick the Gemini model that writes your answer. Here is what it breaks in your GEO reporting and how to control for it.",
+      "url": "https://carrollconsultingservices.com/blog/ai-mode-model-selection-just-made-your-search-result-a",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Google Ads AI Max Auto-Upgrade Is Live: What It Flips On and What It Breaks",
+      "excerpt": "The Google Ads AI Max auto-upgrade runs all September 2026. Here is what it turns on by default, the landing page data join it breaks, and how to keep control.",
+      "url": "https://carrollconsultingservices.com/blog/the-google-ads-ai-max-auto-upgrade-is-live-what-it-flips-on",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "AI Mode Price Tracking Turns Search Into a Standing Watch on Your Prices",
+      "excerpt": "AI Mode price tracking means Google now watches your fares and rates and emails buyers when they move. Here is what that shift changes for travel and retail.",
+      "url": "https://carrollconsultingservices.com/blog/ai-mode-price-tracking-turns-search-into-a-standing-watch",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The August 2026 Spam Update Just Closed: Your Clean-Read Recovery Window Is Open",
+      "excerpt": "The August 2026 spam update finished rolling out. Here is how to run an honest recovery read, separate spam signals from AI volatility, and act.",
+      "url": "https://carrollconsultingservices.com/blog/the-august-2026-spam-update-just-closed-your-clean-read",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Google Preferred Sources Just Became an AI Search Lever You Actually Control",
+      "excerpt": "Google Preferred Sources now feeds AI Overviews and AI Mode. Here is why this opt-in visibility lever matters and the STAR method to earn reader selections.",
+      "url": "https://carrollconsultingservices.com/blog/google-preferred-sources-just-became-an-ai-search-lever-you",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Your Best Search Real Estate Now Sits on Domains You Do Not Own",
+      "excerpt": "Search Console platform properties finally show how your Instagram, TikTok, X, and YouTube content gets found in Google Search and Discover. Here is how to use it.",
+      "url": "https://carrollconsultingservices.com/blog/your-best-search-real-estate-now-sits-on-domains-you-do-not",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Agent Checks Out Now: What the Agentic Commerce Protocol Does to Your Feed",
+      "excerpt": "The Agentic Commerce Protocol lets AI agents buy and pay on their own. Here is what your product feed must do to stay in the transaction, not the answer.",
+      "url": "https://carrollconsultingservices.com/blog/the-agent-checks-out-now-what-the-agentic-commerce-protocol",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "AI Mode Is the Default Now: The 30-Day Readiness Audit",
+      "excerpt": "On July 10 Google made AI Mode the global default. Here is a practical AI Mode default readiness audit: what to fix, what to measure, and what to ignore first.",
+      "url": "https://carrollconsultingservices.com/blog/ai-mode-is-the-default-now-the-30-day-readiness-audit",
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Connected Apps in AI Mode: When Search Acts Inside Software You Do Not Own",
+      "excerpt": "Connected apps in AI Mode turn search into task completion inside Instacart, Canva, and YouTube. Here is what changes for brands and how to stay in the answer.",
+      "url": "https://carrollconsultingservices.com/blog/connected-apps-in-ai-mode-when-search-acts-inside-software",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Your Search Box Is a Landing Page Now: Optimizing Internal Site Search for AI",
+      "excerpt": "AI referrals are landing on internal site search pages, not your best content. Here is how to treat internal site search as an acquisition surface and convert.",
+      "url": "https://carrollconsultingservices.com/blog/your-search-box-is-a-landing-page-now-optimizing-internal",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Ads in AI Mode: When the Answer Becomes the Ad Slot",
+      "excerpt": "Google is putting ads in AI Mode, right inside the answer. Here is what changes for organic visibility and GEO, and how to defend your position now.",
+      "url": "https://carrollconsultingservices.com/blog/ads-in-ai-mode-when-the-answer-becomes-the-ad-slot",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "When Search Books the Job: Winning at Agentic Local Search",
+      "excerpt": "Google is expanding agentic local search to bookings and even phone calls this summer. Here is how local businesses get chosen, quoted, and booked by the agent.",
+      "url": "https://carrollconsultingservices.com/blog/when-search-books-the-job-winning-at-agentic-local-search",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Search Console Generative AI Report Is Live: What It Measures, What It Hides, and How to Use It",
+      "excerpt": "Google's new Search Console generative AI report shows your AI Overviews and AI Mode impressions. Here is what it measures, what it hides, and how to act on it.",
+      "url": "https://carrollconsultingservices.com/blog/the-search-console-generative-ai-report-is-live-what-it",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Agentic Search Is Here: What Happens When Google Completes the Task Instead of Sending the Click",
+      "excerpt": "Agentic search lets Google book, buy, and act inside the results page. Here is what marketers must do now to stay visible when AI agents finish the job.",
+      "url": "https://carrollconsultingservices.com/blog/agentic-search-completes-the-task",
+      "publishedAt": "2026-06-20T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Generative Engine Optimization (GEO): How to Stay Visible When AI Answers the Question",
+      "excerpt": "Generative engine optimization is how brands stay visible when AI Overviews, ChatGPT, and Perplexity answer queries directly. Tactics, a framework, a checklist.",
+      "url": "https://carrollconsultingservices.com/blog/generative-engine-optimization-geo",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "AI Overviews and the New Click Economy",
+      "excerpt": "AI Overviews answer queries inline, reshaping the click economy. Here is how brands earn presence, citations, and qualified clicks when Google answers first.",
+      "url": "https://carrollconsultingservices.com/blog/ai-overviews-new-click-economy",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Local SEO at Scale: Lessons From Running 100-Client Programs",
+      "excerpt": "Local SEO at scale is a systems problem, not a tactics problem. Templates, QA, and governance for managing local search across many locations and clients.",
+      "url": "https://carrollconsultingservices.com/blog/local-seo-at-scale",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Measuring SEO When the Clicks Fall",
+      "excerpt": "Measuring SEO by clicks alone now hides your real influence. Build a new scoreboard: impressions, citations, branded search, and assisted conversions.",
+      "url": "https://carrollconsultingservices.com/blog/measuring-seo-when-clicks-fall",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Entity-Based SEO: Optimizing for Things, Not Strings",
+      "excerpt": "Entity-based SEO optimizes for things, not strings. Learn how knowledge graphs, disambiguation, and entity clarity beat keyword matching in AI-era search.",
+      "url": "https://carrollconsultingservices.com/blog/entity-based-seo",
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Technical SEO That Still Moves the Needle",
+      "excerpt": "Most technical SEO is busywork. Here are the handful of technical SEO fixes that actually change outcomes, and the audit list of items safe to ignore.",
+      "url": "https://carrollconsultingservices.com/blog/technical-seo-that-moves-the-needle",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Content Pruning: Why Deleting Pages Can Grow Traffic",
+      "excerpt": "Content pruning grows organic traffic by removing dead pages that dilute authority. How to audit, decide keep or kill, and concentrate a site's strength.",
+      "url": "https://carrollconsultingservices.com/blog/content-pruning",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Enterprise SEO Operating Model",
+      "excerpt": "An enterprise SEO operating model embeds search into product and engineering so it scales past one expert. Org design, governance, and execution that hold up.",
+      "url": "https://carrollconsultingservices.com/blog/enterprise-seo-operating-model",
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Topical Authority and the Hub-and-Spoke Model",
+      "excerpt": "Topical authority is built with a hub-and-spoke architecture: pillar pages and clusters that prove depth. How to design and link it so a site ranks well.",
+      "url": "https://carrollconsultingservices.com/blog/topical-authority-hub-and-spoke",
+      "publishedAt": "2026-04-20T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "E-E-A-T in Practice: Proving Experience at Scale",
+      "excerpt": "E-E-A-T is operational, not abstract. How to prove experience, expertise, authorship, and trust signals across a large site so humans and AI both believe you.",
+      "url": "https://carrollconsultingservices.com/blog/eeat-in-practice",
+      "publishedAt": "2026-04-13T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Schema Markup: The Translation Layer for Machines",
+      "excerpt": "Schema markup is the translation layer that tells machines what content means. Which structured data types matter, how to deploy them, how to keep them valid.",
+      "url": "https://carrollconsultingservices.com/blog/schema-markup-translation-layer",
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Core Web Vitals and the Business Case for Speed",
+      "excerpt": "Core Web Vitals tie page speed to revenue. Learn which performance fixes to make first, how to build the business case, and how to prove the payback.",
+      "url": "https://carrollconsultingservices.com/blog/core-web-vitals-business-case",
+      "publishedAt": "2026-03-30T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "International SEO: Hreflang, Localization, and Global Expansion",
+      "excerpt": "International SEO done right means clean hreflang, real localization over translation, and a market architecture that scales. A practitioner's playbook.",
+      "url": "https://carrollconsultingservices.com/blog/international-seo",
+      "publishedAt": "2026-03-23T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Programmatic SEO Without the Spam",
+      "excerpt": "Programmatic SEO can scale thousands of valuable pages or flood the web with doorway spam. Here is how to build pages at scale that earn their place.",
+      "url": "https://carrollconsultingservices.com/blog/programmatic-seo-without-spam",
+      "publishedAt": "2026-03-16T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Death of the Keyword (and What Replaced It)",
+      "excerpt": "The keyword is dead and search intent replaced it. How entities, topics, and the real job behind a query changed the way modern SEO research is done.",
+      "url": "https://carrollconsultingservices.com/blog/death-of-the-keyword",
+      "publishedAt": "2026-03-09T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Search Intent and the Job to Be Done",
+      "excerpt": "Search intent is the job behind a query. Map content to what the searcher is hiring it to do, and you build pages that convert, not just pages that rank.",
+      "url": "https://carrollconsultingservices.com/blog/search-intent-jobs-to-be-done",
+      "publishedAt": "2026-03-02T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Internal Linking as a Growth Lever",
+      "excerpt": "Internal linking is one of the highest-leverage, lowest-cost moves in SEO. Here is how to use it to pass authority, signal structure, and grow traffic.",
+      "url": "https://carrollconsultingservices.com/blog/internal-linking-growth-lever",
+      "publishedAt": "2026-02-23T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "A Marketing Analytics Stack Executives Trust",
+      "excerpt": "A marketing analytics stack executives trust is built on clean data, honest attribution, and metrics tied to revenue. Here is how to build one leaders act on.",
+      "url": "https://carrollconsultingservices.com/blog/marketing-analytics-stack",
+      "publishedAt": "2026-02-16T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Attribution in a Multi-Touch, AI-Mediated World",
+      "excerpt": "Marketing attribution is breaking as AI mediates discovery. Here is how to move past last-click and model assisted, branded, and AI-introduced demand honestly.",
+      "url": "https://carrollconsultingservices.com/blog/attribution-multi-touch-ai",
+      "publishedAt": "2026-02-09T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "From SEO to GEO: A Transition Playbook",
+      "excerpt": "A step-by-step generative engine optimization playbook for shifting from ranking to being retrieved and cited by AI, without abandoning the SEO that still works.",
+      "url": "https://carrollconsultingservices.com/blog/seo-to-geo-transition-playbook",
+      "publishedAt": "2026-02-02T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "AI Content: Where It Helps, Where It Hurts",
+      "excerpt": "AI content can scale production or tank your quality. A practitioner's rules for using generative content where it helps and avoiding the places it hurts.",
+      "url": "https://carrollconsultingservices.com/blog/ai-content-help-hurt",
+      "publishedAt": "2026-01-26T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Content Brief That Actually Produces Rankings",
+      "excerpt": "A content brief template that aligns writers, search intent, and entities so the page ranks and gets cited. The exact fields, the framework, the checklist.",
+      "url": "https://carrollconsultingservices.com/blog/content-brief-that-ranks",
+      "publishedAt": "2026-01-19T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Marketing Operations: Making Yourself Unnecessary",
+      "excerpt": "Marketing operations is the discipline of building systems so the machine runs without you. The frameworks, the documentation, and a checklist to get there.",
+      "url": "https://carrollconsultingservices.com/blog/marketing-operations-unnecessary",
+      "publishedAt": "2026-01-12T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The SEO Audit That Finds the 20% That Matters",
+      "excerpt": "A prioritized SEO audit that surfaces the few high-leverage fixes instead of a 200-item list. The framework, the order of operations, and a checklist.",
+      "url": "https://carrollconsultingservices.com/blog/seo-audit-twenty-percent",
+      "publishedAt": "2026-01-05T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Conversion Rate Optimization for Organic Traffic",
+      "excerpt": "Conversion rate optimization for organic traffic turns hard-won search visits into outcomes. The intent-matching framework, the tests that matter, and a checklist.",
+      "url": "https://carrollconsultingservices.com/blog/cro-for-organic-traffic",
+      "publishedAt": "2025-12-29T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Digital PR and the Link-Earning Flywheel",
+      "excerpt": "Digital PR earns links and citations through stories worth covering, not by begging. The flywheel, the story types that work, and a checklist to build it.",
+      "url": "https://carrollconsultingservices.com/blog/digital-pr-link-flywheel",
+      "publishedAt": "2025-12-22T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Brand Search: The Most Undervalued SEO Metric",
+      "excerpt": "Brand search is the truest signal of marketing health, the one number that survives algorithm changes and AI answers. Why it matters and how to grow it on purpose.",
+      "url": "https://carrollconsultingservices.com/blog/brand-search-undervalued-metric",
+      "publishedAt": "2025-12-15T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Site Migrations Without Losing Your Rankings",
+      "excerpt": "Site migration SEO is where organic equity quietly dies. This is the playbook that protects rankings and traffic through replatforms, redesigns, and domain moves.",
+      "url": "https://carrollconsultingservices.com/blog/site-migrations-without-losing-rankings",
+      "publishedAt": "2025-12-08T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Role of SEO in a Zero-Click World",
+      "excerpt": "Zero-click search means most queries never produce a click. Here is what SEO becomes when the answer is the destination, and how to stay visible and earn demand anyway.",
+      "url": "https://carrollconsultingservices.com/blog/seo-in-zero-click-world",
+      "publishedAt": "2025-12-01T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Marketing Leadership: Leading Technical and Creative Teams",
+      "excerpt": "Marketing leadership means managing analysts, engineers, and creatives who think in different languages. Here is how to lead across the technical-creative divide without losing either side.",
+      "url": "https://carrollconsultingservices.com/blog/leading-technical-creative-teams",
+      "publishedAt": "2025-11-24T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Forecasting SEO: Modeling Traffic and Revenue for the C-Suite",
+      "excerpt": "SEO forecasting is how you turn organic search into a number the C-suite will fund. Build defensible traffic and revenue models executives believe, with ranges, not fantasy.",
+      "url": "https://carrollconsultingservices.com/blog/forecasting-seo-for-the-c-suite",
+      "publishedAt": "2025-11-17T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Voice and Visual Search: Optimizing Beyond Text",
+      "excerpt": "Visual search and voice are quietly reshaping discovery. A practitioner's playbook for optimizing image, camera, and spoken queries beyond traditional text SEO.",
+      "url": "https://carrollconsultingservices.com/blog/voice-and-visual-search",
+      "publishedAt": "2025-11-10T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Content Refresh: Compounding Returns on Old Posts",
+      "excerpt": "A systematic content refresh program turns aging posts into compounding traffic. The framework, the prioritization, and the checklist I use to refresh at scale.",
+      "url": "https://carrollconsultingservices.com/blog/content-refresh-compounding",
+      "publishedAt": "2025-11-03T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Crawl Budget for Large Sites",
+      "excerpt": "Crawl budget decides which pages search engines and AI crawlers ever see. A practitioner's playbook for steering crawlers to the pages that earn revenue.",
+      "url": "https://carrollconsultingservices.com/blog/crawl-budget-large-sites",
+      "publishedAt": "2025-10-27T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "First-Party Data and the Post-Cookie Playbook",
+      "excerpt": "First-party data is the durable foundation for measurement and targeting after third-party cookies. A practical playbook for collecting, modeling, and activating it.",
+      "url": "https://carrollconsultingservices.com/blog/first-party-data-post-cookie",
+      "publishedAt": "2025-10-20T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Generative Search Optimization for Ecommerce",
+      "excerpt": "Ecommerce SEO now means getting product and category pages retrieved and cited by AI, not just ranked. The playbook for generative search on a storefront.",
+      "url": "https://carrollconsultingservices.com/blog/generative-search-for-ecommerce",
+      "publishedAt": "2025-10-13T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Modeling Content ROI: The Unit Economics of Organic",
+      "excerpt": "Content ROI is how you defend and scale an organic program. A practitioner's model for the real cost, payback period, and compounding return of content.",
+      "url": "https://carrollconsultingservices.com/blog/content-roi-unit-economics",
+      "publishedAt": "2025-10-06T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Digital Shelf: SEO on Marketplaces You Do Not Own",
+      "excerpt": "The digital shelf is where product discovery happens now. A practitioner's playbook for ranking on marketplaces with their own rules that you do not own.",
+      "url": "https://carrollconsultingservices.com/blog/marketplace-seo-digital-shelf",
+      "publishedAt": "2025-09-29T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "llms.txt and Controlling How AI Crawlers Use Your Site",
+      "excerpt": "llms.txt tells answer engines what to read and cite on your website. Here is how to set your terms deliberately, alongside robots.txt, for AI crawlers.",
+      "url": "https://carrollconsultingservices.com/blog/llms-txt-ai-crawler-control",
+      "publishedAt": "2025-09-22T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Content Operating System: From Idea to Published at Scale",
+      "excerpt": "Content operations turns strategy into published, ranking pages predictably. Here is the repeatable pipeline that beats raw volume without a real system.",
+      "url": "https://carrollconsultingservices.com/blog/content-operating-system",
+      "publishedAt": "2025-09-15T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Building an In-House SEO Team, and When Not To",
+      "excerpt": "The in-house SEO team decision most companies get backwards. What to keep internal, what to hire out, and how to structure a hybrid that actually performs.",
+      "url": "https://carrollconsultingservices.com/blog/in-house-vs-agency-seo",
+      "publishedAt": "2025-09-08T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Dashboards Executives Actually Read",
+      "excerpt": "Most marketing dashboards report activity nobody acts on. Here is how to build one around decisions so leadership trusts it, opens it, and uses it to steer.",
+      "url": "https://carrollconsultingservices.com/blog/dashboards-executives-read",
+      "publishedAt": "2025-09-01T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Marketing Mix Modeling Makes a Comeback",
+      "excerpt": "Marketing mix modeling is the privacy proof way to measure what works when tracking breaks down. Why an old top down technique is suddenly modern again.",
+      "url": "https://carrollconsultingservices.com/blog/marketing-mix-modeling",
+      "publishedAt": "2025-08-25T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Incrementality Testing: Proving Marketing Caused the Lift",
+      "excerpt": "Incrementality testing separates the sales your marketing actually caused from the credit attribution hands out. A practical guide to holdout and geo tests.",
+      "url": "https://carrollconsultingservices.com/blog/incrementality-testing",
+      "publishedAt": "2025-08-18T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Server-Side Tagging and the Future of Marketing Data",
+      "excerpt": "Server-side tagging moves data collection off the browser and onto your server. What you gain in control and durability, and the real costs you take on.",
+      "url": "https://carrollconsultingservices.com/blog/server-side-tagging",
+      "publishedAt": "2025-08-11T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Reviews as a Ranking and Conversion Asset",
+      "excerpt": "Online reviews are a ranking factor, a conversion lever, and a trust signal that machines read. Here is the system for earning and using them at scale.",
+      "url": "https://carrollconsultingservices.com/blog/reviews-ranking-conversion",
+      "publishedAt": "2025-08-04T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Google Business Profile Playbook",
+      "excerpt": "For a local business the Google Business Profile is the whole storefront. Here are the fields, signals, and daily habits that actually move local visibility.",
+      "url": "https://carrollconsultingservices.com/blog/google-business-profile-playbook",
+      "publishedAt": "2025-07-28T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Image SEO for a Multimodal Search World",
+      "excerpt": "Image SEO now decides whether your visuals surface in multimodal and answer results. A practitioner's playbook to make images fast, described, and structured.",
+      "url": "https://carrollconsultingservices.com/blog/image-seo-multimodal",
+      "publishedAt": "2025-07-21T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Video SEO: Ranking in the Second-Largest Search Engine",
+      "excerpt": "Video SEO is how you make video discoverable, not just watchable. A practitioner's playbook for ranking in video search, SERP features, and answer engines.",
+      "url": "https://carrollconsultingservices.com/blog/video-seo",
+      "publishedAt": "2025-07-14T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "SEO for SaaS: Building an Organic Growth Engine",
+      "excerpt": "SaaS SEO is product-led growth done well. A practitioner's playbook for building programmatic, use-case, and comparison content that compounds into pipeline.",
+      "url": "https://carrollconsultingservices.com/blog/seo-for-saas",
+      "publishedAt": "2025-07-07T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "SEO for Long B2B Sales Cycles",
+      "excerpt": "B2B SEO for long sales cycles is not about ranking. It is about influencing a buying committee over many months. Here is how to run search for the long sale.",
+      "url": "https://carrollconsultingservices.com/blog/b2b-seo-long-sales-cycles",
+      "publishedAt": "2025-06-30T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Answering the Questions Behind the Query",
+      "excerpt": "Question-based content wins search and AI answers alike. A practitioner's method for building pages around the real questions a topic raises and the follow-ups.",
+      "url": "https://carrollconsultingservices.com/blog/question-based-content",
+      "publishedAt": "2025-06-23T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Winning SERP Features Without Losing the Click",
+      "excerpt": "SERP features turned the results page into a layout you compete inside. A practitioner's guide to which features to chase and which ones to defend against.",
+      "url": "https://carrollconsultingservices.com/blog/serp-features-strategy",
+      "publishedAt": "2025-06-16T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Keyword Cannibalization: When Your Pages Compete With Each Other",
+      "excerpt": "Keyword cannibalization splits your authority and confuses intent. A practitioner's guide to finding the pages competing with each other and fixing them.",
+      "url": "https://carrollconsultingservices.com/blog/keyword-cannibalization",
+      "publishedAt": "2025-06-09T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Information Architecture as an SEO Discipline",
+      "excerpt": "Information architecture is a ranking decision, not just a UX choice. How to structure taxonomy so people and machines both understand what you are about.",
+      "url": "https://carrollconsultingservices.com/blog/information-architecture-seo",
+      "publishedAt": "2025-06-02T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Canonical Tags and the Duplicate Content You Did Not Know You Had",
+      "excerpt": "Canonical tags consolidate ranking signals instead of splitting them across duplicates. A practitioner's guide to finding accidental duplication and the fix.",
+      "url": "https://carrollconsultingservices.com/blog/canonical-tags-duplicate-content",
+      "publishedAt": "2025-05-26T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Robots.txt and the Art of Crawl Control",
+      "excerpt": "Robots.txt is the most powerful and misunderstood file on your entire site. Learn what to disallow, what never to, and how it now shapes AI crawler access.",
+      "url": "https://carrollconsultingservices.com/blog/robots-txt-crawl-control",
+      "publishedAt": "2025-05-19T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Sitemaps at Scale: The Index Signal Most Teams Waste",
+      "excerpt": "XML sitemaps are a curated statement of what matters, not a URL dump. A practitioner's playbook for running them as an indexing and diagnostics tool at scale.",
+      "url": "https://carrollconsultingservices.com/blog/xml-sitemaps-at-scale",
+      "publishedAt": "2025-05-12T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "JavaScript SEO: Making Sure Machines See What Users See",
+      "excerpt": "JavaScript SEO is where modern sites quietly lose visibility. A field guide to making crawlers and answer engines see exactly what your real users see.",
+      "url": "https://carrollconsultingservices.com/blog/javascript-seo",
+      "publishedAt": "2025-05-05T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Taming Faceted Navigation Before It Buries Your Catalog",
+      "excerpt": "Faceted navigation silently spawns millions of thin, near duplicate URLs. A practitioner's system for deciding what stays indexable and taming the rest.",
+      "url": "https://carrollconsultingservices.com/blog/taming-faceted-navigation",
+      "publishedAt": "2025-04-28T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "What Server Logs Reveal That Analytics Cannot",
+      "excerpt": "Log file analysis is the only ground truth for what crawlers actually do on your site. Here is how to read server logs and turn them into crawl decisions.",
+      "url": "https://carrollconsultingservices.com/blog/log-file-analysis-for-seo",
+      "publishedAt": "2025-04-21T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Winning Google Discover and the Feed",
+      "excerpt": "Google Discover sends traffic to content nobody searched for. How to earn no-query, interest-driven visibility in the feed without resorting to cheap clickbait.",
+      "url": "https://carrollconsultingservices.com/blog/winning-google-discover",
+      "publishedAt": "2025-04-14T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Paid and Organic Search: Running Them as One System",
+      "excerpt": "Run paid and organic search as one system and they compound. Run them as silos and they waste budget and cannibalize each other. Here is how to coordinate both.",
+      "url": "https://carrollconsultingservices.com/blog/paid-and-organic-search",
+      "publishedAt": "2025-04-07T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "App Store Optimization: SEO for the Store Shelf",
+      "excerpt": "App store optimization is SEO for a search engine most teams ignore. A practitioner's playbook for ranking and converting on the shelf that owns discovery.",
+      "url": "https://carrollconsultingservices.com/blog/app-store-optimization",
+      "publishedAt": "2025-03-31T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "UGC, Forums, and the Rise of Community in Search",
+      "excerpt": "User-generated content and forums now shape search and answer engines. How brands earn a real place in the conversation without astroturfing or faking it.",
+      "url": "https://carrollconsultingservices.com/blog/ugc-forums-community-search",
+      "publishedAt": "2025-03-24T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Author Authority: Building the People Behind Your Content",
+      "excerpt": "Author authority is how machines decide whose expertise to trust. A practitioner's playbook for building author entities and proving the people behind bylines.",
+      "url": "https://carrollconsultingservices.com/blog/author-authority-entities",
+      "publishedAt": "2025-03-17T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The First 90 Days on a New SEO Program",
+      "excerpt": "The first 90 days on a new SEO program decide whether you earn trust or get sidelined. A week by week plan for the audit, quick wins, and a funded roadmap.",
+      "url": "https://carrollconsultingservices.com/blog/first-90-days-seo-program",
+      "publishedAt": "2025-03-10T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "How to Budget for SEO, and Defend It",
+      "excerpt": "An SEO budget wins funding when you frame it as an investment with a return, not as overhead. How to build a budget that leadership will fund and protect.",
+      "url": "https://carrollconsultingservices.com/blog/how-to-budget-for-seo",
+      "publishedAt": "2025-03-03T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "SEO Through a Merger: Consolidating Two Sites",
+      "excerpt": "Site consolidation can double your authority or halve it. The practitioner playbook for merging domains, content, and brands without torching organic equity.",
+      "url": "https://carrollconsultingservices.com/blog/seo-through-a-merger",
+      "publishedAt": "2025-02-24T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Choosing an SEO Tech Stack Without Getting Sold",
+      "excerpt": "Most teams overspend on overlapping SEO tools and underuse every one. Choose a stack around the jobs you actually have, not the polished demo you were shown.",
+      "url": "https://carrollconsultingservices.com/blog/choosing-an-seo-tech-stack",
+      "publishedAt": "2025-02-17T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Accessibility and SEO: The Same Work, Twice the Payoff",
+      "excerpt": "Accessibility and SEO are the same discipline from two sides. A working practitioner's guide to content that people and machines can perceive and understand.",
+      "url": "https://carrollconsultingservices.com/blog/accessibility-and-seo",
+      "publishedAt": "2025-02-10T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "The Third-Party Script Tax on Site Speed",
+      "excerpt": "Third-party scripts quietly tax your site speed and stability. A practitioner's playbook for governing tags so measurement stops wrecking your performance.",
+      "url": "https://carrollconsultingservices.com/blog/third-party-script-tax",
+      "publishedAt": "2025-02-03T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "URL Design That Ages Well",
+      "excerpt": "URL structure is a decade long commitment most teams make in an afternoon. The conventions that keep URLs clean, stable, and legible to people and machines.",
+      "url": "https://carrollconsultingservices.com/blog/url-design-that-ages-well",
+      "publishedAt": "2025-01-27T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Pagination and Infinite Scroll Without Losing Rankings",
+      "excerpt": "Pagination and infinite scroll quietly hide content from crawlers. A practitioner's playbook for listing and archive UX that machines can fully reach.",
+      "url": "https://carrollconsultingservices.com/blog/pagination-and-infinite-scroll",
+      "publishedAt": "2025-01-20T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Redirects Without Regret: A Field Guide to 301s",
+      "excerpt": "Redirects preserve or destroy years of link equity depending on how they are handled. The status codes, the chains to avoid, and how to run a map that holds.",
+      "url": "https://carrollconsultingservices.com/blog/redirects-without-regret",
+      "publishedAt": "2025-01-13T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "Index Management: Deciding What Google Should Ignore",
+      "excerpt": "Index management is deciding which pages belong in search and which to hold out with noindex and canonicals. A practitioner's system for a clean index.",
+      "url": "https://carrollconsultingservices.com/blog/index-management-noindex",
+      "publishedAt": "2025-01-06T00:00:00.000Z",
+      "sourceId": "ccs"
+    },
+    {
+      "title": "A Cozy Movie Night Room Reset",
+      "excerpt": "Share one quick chore each before settling into a warm movie night, with optional treats kids can choose with their own points.",
+      "url": "https://chorzle.com/buzz/a-cozy-movie-night-room-reset-2026-09-21",
+      "publishedAt": "2026-09-21T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Keeping the Rhythm When the Week Spills Over",
+      "excerpt": "When busy autumn schedules upend your plans, trimming routines down to simple essentials helps your family stay grounded without guilt.",
+      "url": "https://chorzle.com/buzz/keeping-the-rhythm-when-the-week-spills-over-2026-09-25",
+      "publishedAt": "2026-09-14T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Welcoming Little Helpers Into Daily Home Work",
+      "excerpt": "Welcoming a toddler into everyday chores takes extra time and patience, but simple steps can build quiet warmth across your household routines.",
+      "url": "https://chorzle.com/buzz/welcoming-little-helpers-into-daily-home-work-2026-09-25",
+      "publishedAt": "2026-09-07T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Tending the Rooms Everyone Shares",
+      "excerpt": "When nobody owns the living room or hallway, clutter collects quickly. Here is a friendly way to share care for common spaces.",
+      "url": "https://chorzle.com/buzz/tending-the-rooms-everyone-shares-2026-09-25",
+      "publishedAt": "2026-08-31T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Noticing the Real Work Behind Every Chore",
+      "excerpt": "Swap quick, automatic praise for simple observations that show your kids you genuinely see the care they put into everyday jobs around the house.",
+      "url": "https://chorzle.com/buzz/noticing-the-real-work-behind-every-chore-2026-09-25",
+      "publishedAt": "2026-08-24T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Untangling Allowance and Everyday Helping",
+      "excerpt": "A calm, practical guide to balancing money, earned points, and shared household help without turning daily family life into a round of negotiations.",
+      "url": "https://chorzle.com/buzz/untangling-allowance-and-everyday-helping-2026-09-25",
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "A Gentle Evening Reset Before Bed",
+      "excerpt": "A short, shared family tidy before bedtime helps clear the main living spaces so everyone greets a quiet room tomorrow morning.",
+      "url": "https://chorzle.com/buzz/a-gentle-evening-reset-before-bed-2026-09-25",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Anchoring Small Chores Into the Morning Rush",
+      "excerpt": "Try pairing one small household job with breakfast or getting ready, using ordinary chores, clear choices, and the devices your family already owns.",
+      "url": "https://chorzle.com/buzz/anchoring-small-chores-into-the-morning-rush-2026-09-25",
+      "publishedAt": "2026-08-03T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Passing the Torch to Your Teenager at Home",
+      "excerpt": "Handing an entire corner of family life to your teenager means giving up some control so they can run things their way.",
+      "url": "https://chorzle.com/buzz/passing-the-torch-to-your-teenager-at-home-2026-09-25",
+      "publishedAt": "2026-07-27T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Making Chores Fair When Kids Are Different",
+      "excerpt": "When children differ in age or ability, equal work is not always fair. Here is how to share tasks warmly.",
+      "url": "https://chorzle.com/buzz/making-chores-fair-when-kids-are-different-2026-09-25",
+      "publishedAt": "2026-07-20T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "When Chores Meet a Hard Refusal",
+      "excerpt": "When chores meet resistance after a tiring day, simple steps can keep the conversation calm, kind, and steady without turning chores into a battle.",
+      "url": "https://chorzle.com/buzz/when-chores-meet-a-hard-refusal-2026-09-25",
+      "publishedAt": "2026-07-13T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Inviting Real Help Instead of Demanding It",
+      "excerpt": "Shifting the tone around household jobs starts with open conversations, shared choices, and simple routines that welcome kids into the real work of home.",
+      "url": "https://chorzle.com/buzz/inviting-real-help-instead-of-demanding-it-2026-09-25",
+      "publishedAt": "2026-07-06T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Setting Up a Sunday Launch Pad for the Week",
+      "excerpt": "Turn Sunday sorting into a gentle hunt for missing gear, clear the entryway, and let kids shape next week's household rhythm.",
+      "url": "https://chorzle.com/buzz/setting-up-a-sunday-launch-pad-for-the-week-2026-09-25",
+      "publishedAt": "2026-06-29T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Running a Pretend Cafe in the Kitchen",
+      "excerpt": "Turn evening table setup and unloading clean dishes into a playful pretend cafe where everyone works together before dinner.",
+      "url": "https://chorzle.com/buzz/running-a-pretend-cafe-in-the-kitchen-2026-09-25",
+      "publishedAt": "2026-06-22T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "The Toy Library Reset for Busy Afternoons",
+      "excerpt": "Sort a messy play area into clear spots with silly shelf nicknames, simple shared tasks, and a modest family treat.",
+      "url": "https://chorzle.com/buzz/the-toy-library-reset-for-busy-afternoons-2026-09-25",
+      "publishedAt": "2026-06-15T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Building a Kid-Created Reward Menu",
+      "excerpt": "Sit down together this September to dream up simple, playful household privileges that make your family chore routine feel inviting and collaborative.",
+      "url": "https://chorzle.com/buzz/building-a-kid-created-reward-menu-2026-09-25",
+      "publishedAt": "2026-06-08T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Setting Up a Weekend Sock-Sorting Studio",
+      "excerpt": "Turn laundry baskets and lonely socks into a relaxed family folding session with cozy tunes, clear jobs, and simple shared routines.",
+      "url": "https://chorzle.com/buzz/setting-up-a-weekend-sock-sorting-studio-2026-09-25",
+      "publishedAt": "2026-06-01T14:00:00.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "The Race to the Last Chore",
+      "excerpt": "Some evenings, finishing the chore list turns into the part everyone wants. Here's a gentle look at why that happens, and how to keep it kind.",
+      "url": "https://chorzle.com/buzz/the-race-to-the-last-chore",
+      "publishedAt": "2026-05-27T16:44:12.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "The iPad on the Kitchen Counter",
+      "excerpt": "Keep the family chore list together on a shared iPad, with a simple place to check jobs and rewards in the kitchen.",
+      "url": "https://chorzle.com/buzz/the-ipad-on-the-kitchen-counter",
+      "publishedAt": "2026-05-20T15:29:03.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "A Chore App With No Ads",
+      "excerpt": "A quiet chore screen, clear rewards, and an understandable price. What to look for when choosing a family chore app without ads.",
+      "url": "https://chorzle.com/buzz/a-chore-app-with-no-ads",
+      "publishedAt": "2026-05-20T15:29:03.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Chores Don't Have to Be So Serious",
+      "excerpt": "Somewhere along the way, chores got solemn: charts, rules, a slightly stern voice. Here's a gentler case for letting a little lightness back into the routine.",
+      "url": "https://chorzle.com/buzz/chores-dont-have-to-be-so-serious",
+      "publishedAt": "2026-05-19T17:17:53.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "The Chore List Shouldn't Live in One Person's Head",
+      "excerpt": "In most homes, one person quietly carries the whole list of what needs doing. Here's why that's heavier than it looks, and a gentle way to set it down.",
+      "url": "https://chorzle.com/buzz/the-chore-list-shouldnt-live-in-one-persons-head",
+      "publishedAt": "2026-05-19T17:17:53.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Which Chores Suit Which Ages",
+      "excerpt": "A gentle, age-by-age starting point for what's reasonable to ask of a child, from the first toddler tasks to the year before they leave home.",
+      "url": "https://chorzle.com/buzz/which-chores-suit-which-ages",
+      "publishedAt": "2026-05-19T17:17:53.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Rewards That Feel Good, and the Ones That Backfire",
+      "excerpt": "Rewards are easy to get slightly wrong. Here's how to keep them a warm thank-you instead of turning every helpful act into a negotiation.",
+      "url": "https://chorzle.com/buzz/rewards-that-feel-good-and-the-ones-that-backfire",
+      "publishedAt": "2026-05-19T17:17:53.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "Starting Small: A Calmer Way Into Family Chores",
+      "excerpt": "If chores aren't a habit yet, don't start with a big chart and a big speech. Start with three things and an ordinary Tuesday.",
+      "url": "https://chorzle.com/buzz/starting-small-with-family-chores",
+      "publishedAt": "2026-05-19T17:17:53.000Z",
+      "sourceId": "chorzle"
+    },
+    {
+      "title": "The Thing You Always Do in October",
+      "excerpt": "Autumn traditions repeat quietly for years before anyone writes them down. Here's how to notice the details now, and build a book around the thing you always do.",
+      "url": "https://ourlittlebook.com/nook/the-thing-you-always-do-in-october",
+      "publishedAt": "2026-09-21T12:16:34.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Bottom Stair, Where They End Up",
+      "excerpt": "The way your two children are with each other right now won't last the year. Here's how to notice it, and hold it in a book they'll both claim.",
+      "url": "https://ourlittlebook.com/nook/the-bottom-stair-where-they-end-up",
+      "publishedAt": "2026-09-14T12:12:51.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "Four Hundred Miles and Still on the Shelf",
+      "excerpt": "Distance is a fact, but being forgotten isn't. How a small book can keep a faraway grandparent on the shelf, at hand, in a child's ordinary week.",
+      "url": "https://ourlittlebook.com/nook/four-hundred-miles-and-still-on-the-shelf",
+      "publishedAt": "2026-09-07T12:57:02.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Gift Is That You Were Paying Attention",
+      "excerpt": "A made book isn't a bigger gift, it's a closer one. What lands isn't the cover or the art, it's the proof that somebody was paying attention.",
+      "url": "https://ourlittlebook.com/nook/the-gift-is-that-you-were-paying-attention",
+      "publishedAt": "2026-08-31T12:11:37.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Part Where You Say That's Exactly Her",
+      "excerpt": "Before any story gets written, you describe the people and pets you love and approve their art. Here's how to make them truly recognizable on the page.",
+      "url": "https://ourlittlebook.com/nook/the-part-where-you-say-that-s-exactly-her",
+      "publishedAt": "2026-08-24T12:33:14.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "Small and True Beats Big and Grand",
+      "excerpt": "The best idea for a personalized book is usually smaller than you think: one true, specific moment you already know by heart.",
+      "url": "https://ourlittlebook.com/nook/small-and-true-beats-big-and-grand",
+      "publishedAt": "2026-08-17T12:45:31.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Teacher Who Learns Their Name First",
+      "excerpt": "A new classroom is full of kind grown-ups a child hasn't met yet, and a small story can help them picture the year, or thank the teacher living it.",
+      "url": "https://ourlittlebook.com/nook/the-teacher-who-learns-their-name-first",
+      "publishedAt": "2026-08-10T12:37:50.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The First Day Is Easier With the Familiar Along",
+      "excerpt": "A first day at school feels big, but the people and small routines around a child stay steady, and a book can gather them close.",
+      "url": "https://ourlittlebook.com/nook/the-first-day-is-easier-with-the-familiar-along",
+      "publishedAt": "2026-08-03T12:17:52.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Old House Comes With You",
+      "excerpt": "When a family moves, a child carries more than boxes. Here's how to help them keep the old place close while they grow brave about the new one.",
+      "url": "https://ourlittlebook.com/nook/the-old-house-comes-with-you",
+      "publishedAt": "2026-07-27T12:41:19.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "A Book That's Waiting for the Baby",
+      "excerpt": "Before a new baby arrives, there's a whole world getting ready: the people, the home, the small corners already saving a place for them.",
+      "url": "https://ourlittlebook.com/nook/a-book-that-s-waiting-for-the-baby",
+      "publishedAt": "2026-07-20T12:34:09.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "Before the Baby Comes, the Big Kid Gets a Story",
+      "excerpt": "A new baby is coming, and your older child is about to become someone new too. Here's a gentle way to let them meet the idea first.",
+      "url": "https://ourlittlebook.com/nook/before-the-baby-comes-the-big-kid-gets-a-story",
+      "publishedAt": "2026-07-13T12:55:38.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Same Grandmother, in Two Different Books",
+      "excerpt": "The people and pets we love rarely belong to just one household, and the stories we keep of them can be shared across the whole family.",
+      "url": "https://ourlittlebook.com/nook/the-same-grandmother-in-two-different-books",
+      "publishedAt": "2026-07-06T12:56:20.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Family Pet Already Has a Story to Tell",
+      "excerpt": "Your dog, your cat, your scruffy rescue mutt already plays a starring role in your family's days, and that story is worth keeping.",
+      "url": "https://ourlittlebook.com/nook/the-family-pet-already-has-a-story-to-tell",
+      "publishedAt": "2026-06-29T12:50:03.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "Make Grandpa the Hero of the Story",
+      "excerpt": "Putting a grandparent at the center of a children's book is a quietly lovely way to honor who they are, and June is a perfect time to start.",
+      "url": "https://ourlittlebook.com/nook/make-grandpa-the-hero-of-the-story",
+      "publishedAt": "2026-06-22T12:19:18.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Road Trip Is Already a Story",
+      "excerpt": "Somewhere between the snacks and the wrong turn and the roadside stop nobody planned, a family road trip writes itself into memory without you even noticing.",
+      "url": "https://ourlittlebook.com/nook/the-road-trip-is-already-a-story",
+      "publishedAt": "2026-06-15T12:31:16.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "What Grandma's Garden Knows About Your Child",
+      "excerpt": "A summer visit to a grandparent's house holds more story than you might think: the garden rows, the handed-down recipes, the tales told quietly on the couch.",
+      "url": "https://ourlittlebook.com/nook/what-grandma-s-garden-knows-about-your-child",
+      "publishedAt": "2026-06-08T04:23:10.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The People Who Watched You Become You",
+      "excerpt": "A graduation is a good reason to gather the people who were there, and ask them to say what they saw, before the details drift away.",
+      "url": "https://ourlittlebook.com/nook/the-people-who-watched-you-become-you",
+      "publishedAt": "2026-06-01T04:51:37.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "Small Summer Moments Worth Keeping",
+      "excerpt": "Summer has a way of handing you the best stories while your hands are full of sunscreen and watermelon, so here's how to hold onto one.",
+      "url": "https://ourlittlebook.com/nook/small-summer-moments-worth-keeping",
+      "publishedAt": "2026-05-17T08:24:48.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "A Story for the Dads and the Grandads",
+      "excerpt": "Father's Day is close, and the best thing you can give the dad or grandad in your life isn't a gift card. It's the small, specific story only your family knows.",
+      "url": "https://ourlittlebook.com/nook/a-story-for-the-dads-and-the-grandads",
+      "publishedAt": "2026-05-10T08:24:48.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "A Book of the School Year They Just Finished",
+      "excerpt": "Before the summer blurs everything into one warm haze, there's a whole school year worth keeping: the teacher, the friendships, the small hard things that quietly became easy.",
+      "url": "https://ourlittlebook.com/nook/a-book-of-the-school-year-they-just-finished",
+      "publishedAt": "2026-05-03T08:24:48.000Z",
+      "sourceId": "olb"
+    },
+    {
+      "title": "The Story Ideas Hiding in an Ordinary Week",
+      "excerpt": "You don't need a birthday or a big trip to fill a book worth keeping. The best pages are often hiding inside the quietest Tuesday.",
+      "url": "https://ourlittlebook.com/nook/story-ideas-hiding-in-an-ordinary-week",
+      "publishedAt": "2026-04-26T08:24:48.000Z",
+      "sourceId": "olb"
+    }
+  ]
+}
