@@ -13,7 +13,7 @@ export const revalidate = 3600;
 
 export default async function HomePage() {
   const { posts } = await getFeed();
-  const latestFromEach = FEED_SOURCES.flatMap((source) => posts.find((post) => post.sourceId === source.id) ?? []);
+  const latestFromEach = FEED_SOURCES.flatMap((source) => posts.find((post) => post.sourceId === source.id) ?? []).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
   const flagships = BRANDS.filter((b) => b.flagship);
   const workshop = BRANDS.filter((b) => !b.flagship);
 
