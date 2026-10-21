@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "description": "Our Little Company LLC: the public home of a family of home-grown brands (Our Little Book, Chorzle, Carroll Consulting) at ourlittlellc.com. Fully static, no auth, no database.",
+  "engines": {
+    "node": ">=24.22.1 <25"
+  },
   "scripts": {
     "dev": "next dev",
+    "check:runtime": "node scripts/check-runtime.mjs",
+    "prebuild": "npm run check:runtime",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",

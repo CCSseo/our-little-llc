@@ -149,6 +149,11 @@ Prompts live in `scripts/generate-art.mjs`. Commit the resulting
 
 ## Local development
 
+Use Node **24.22.1** (`nvm use` reads `.nvmrc`), matching the deployed Node 24
+major. `npm run build` checks for Node 24.22.1 or newer within Node 24 before
+building. The optional art workflow retains its Node 22 major at **22.23.4**;
+runtime validation does not run or generate art.
+
 ```bash
 npm install
 npm run dev                  # http://localhost:3000
@@ -163,6 +168,9 @@ while the development server is running.
 - **Root directory:** the repo root (its own Vercel project, separate from
   `carroll-site` and `knowledge-site`)
 - **Framework preset:** Next.js (auto-detected)
+- **Runtime:** Node 24. Vercel selects the function minor/patch version and
+  applies security updates; repository pins and the build gate verify the builder,
+  not the exact running function patch. Confirm deployment metadata separately.
 - **Environment variables:** `NEXT_PUBLIC_SITE_URL=https://ourlittlellc.com`
 - **Custom domain:** `ourlittlellc.com` (apex) + `www` redirect.
 
